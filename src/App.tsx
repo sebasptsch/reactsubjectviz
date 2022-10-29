@@ -31,6 +31,7 @@ function App() {
             : node.id?.toString()
         );
         sprite.textHeight = 8;
+        // @ts-ignore
         sprite.color = node.color;
         sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
         return sprite;
