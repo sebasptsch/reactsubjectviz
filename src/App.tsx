@@ -13,15 +13,15 @@ function App() {
     <ForceGraph3D
       graphData={{ links, nodes }}
       width={width}
-      // linkDirectionalArrowLength={3.5}
-      // linkDirectionalArrowRelPos={1}
-      // linkCurvature={0.25}
+      linkDirectionalArrowLength={3.5}
+      linkDirectionalArrowRelPos={1}
+      linkCurvature={0.25}
       // linkVisibility={false}
       // nodeVisibility={(node) => node.id === 48024}
-      // nodeAutoColorBy="id"
+      nodeAutoColorBy="course"
       // nodeVisibility={(node) => node.id === 48024}
       enableNodeDrag={false}
-      forceEngine="ngraph"
+      forceEngine="d3"
       nodeThreeObject={(node) => {
         const sprite = new SpriteText(
           // @ts-ignore
@@ -31,7 +31,8 @@ function App() {
             : node.id?.toString()
         );
         sprite.textHeight = 8;
-
+        sprite.color = node.color;
+        sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
         return sprite;
       }}
       onNodeClick={(node) => {
