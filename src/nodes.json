@@ -1,11 +1,5 @@
 [
     {
-        "id": 1000,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 1002,
         "label": "Teaching Indigenous University Students",
         "url": "https://handbook.uts.edu.au/subjects/010029.html",
@@ -54,13 +48,13 @@
         "course": null
     },
     {
-        "id": 1161,
+        "id": 1124,
         "label": null,
         "url": null,
         "course": null
     },
     {
-        "id": 1220,
+        "id": 1161,
         "label": null,
         "url": null,
         "course": null
@@ -70,42 +64,6 @@
         "label": "Professional Experience 8: Reflecting on Educational Practice",
         "url": "https://handbook.uts.edu.au/subjects/012238.html",
         "course": "Education"
-    },
-    {
-        "id": 1300,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1301,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1302,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1303,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1304,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1305,
-        "label": null,
-        "url": null,
-        "course": null
     },
     {
         "id": 1309,
@@ -150,12 +108,6 @@
         "course": "Education"
     },
     {
-        "id": 1322,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 1323,
         "label": "Mathematics Teaching Methods 2",
         "url": "https://handbook.uts.edu.au/subjects/013239.html",
@@ -192,12 +144,6 @@
         "course": "Education"
     },
     {
-        "id": 1395,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 1398,
         "label": "Teaching Academic English",
         "url": "https://handbook.uts.edu.au/subjects/013989.html",
@@ -226,24 +172,6 @@
         "label": "Investigating Learning and Innovation Project",
         "url": "https://handbook.uts.edu.au/subjects/014229.html",
         "course": "Education"
-    },
-    {
-        "id": 1508,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1515,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 1542,
-        "label": null,
-        "url": null,
-        "course": null
     },
     {
         "id": 1601,
@@ -306,12 +234,6 @@
         "course": "Education"
     },
     {
-        "id": 2315,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 2362,
         "label": "Research Seminar",
         "url": "https://handbook.uts.edu.au/subjects/023625.html",
@@ -328,12 +250,6 @@
         "label": "Inclusive Education: Behaviour",
         "url": "https://handbook.uts.edu.au/subjects/023821.html",
         "course": "Education"
-    },
-    {
-        "id": 2421,
-        "label": null,
-        "url": null,
-        "course": null
     },
     {
         "id": 2441,
@@ -438,6 +354,18 @@
         "course": "Education"
     },
     {
+        "id": 3445,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 3471,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 3488,
         "label": null,
         "url": null,
@@ -450,7 +378,73 @@
         "course": null
     },
     {
+        "id": 4004,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4005,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4006,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4018,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4031,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4048,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4067,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4106,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 4140,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4161,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4203,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4235,
         "label": null,
         "url": null,
         "course": null
@@ -474,7 +468,67 @@
         "course": null
     },
     {
+        "id": 4258,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4259,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4260,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 4264,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4274,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4285,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4286,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4287,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4288,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4290,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4298,
         "label": null,
         "url": null,
         "course": null
@@ -492,7 +546,31 @@
         "course": null
     },
     {
+        "id": 4304,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 4320,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4321,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4324,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4325,
         "label": null,
         "url": null,
         "course": null
@@ -510,7 +588,61 @@
         "course": null
     },
     {
+        "id": 4367,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4368,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4369,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4371,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4381,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4382,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4383,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 4385,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4394,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4397,
         "label": null,
         "url": null,
         "course": null
@@ -528,7 +660,19 @@
         "course": null
     },
     {
+        "id": 4404,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 4405,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4406,
         "label": null,
         "url": null,
         "course": null
@@ -540,7 +684,79 @@
         "course": null
     },
     {
+        "id": 4424,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4433,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4434,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4435,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4438,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4440,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4444,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4445,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 4446,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 6129,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 6136,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 6137,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 7021,
         "label": null,
         "url": null,
         "course": null
@@ -552,7 +768,37 @@
         "course": null
     },
     {
-        "id": 9000,
+        "id": 8063,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 8116,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 8441,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 8445,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 8977,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 8981,
         "label": null,
         "url": null,
         "course": null
@@ -576,13 +822,25 @@
         "course": "Health"
     },
     {
+        "id": 9018,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 9048,
         "label": null,
         "url": null,
         "course": null
     },
     {
-        "id": 9055,
+        "id": 9051,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9057,
         "label": null,
         "url": null,
         "course": null
@@ -654,12 +912,6 @@
         "course": null
     },
     {
-        "id": 9077,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 9079,
         "label": null,
         "url": null,
@@ -696,25 +948,25 @@
         "course": null
     },
     {
+        "id": 9089,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9091,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 9099,
         "label": null,
         "url": null,
         "course": null
     },
     {
-        "id": 9100,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 9119,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 9120,
         "label": null,
         "url": null,
         "course": null
@@ -732,7 +984,55 @@
         "course": null
     },
     {
+        "id": 9132,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9133,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 9145,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9447,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9448,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9449,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9450,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9451,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9452,
         "label": null,
         "url": null,
         "course": null
@@ -744,7 +1044,127 @@
         "course": null
     },
     {
+        "id": 9477,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9478,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9479,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9480,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9482,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9483,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9484,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9485,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9486,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9487,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9488,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 9489,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10004,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10007,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10011,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10014,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10015,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10016,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10020,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10021,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10025,
         "label": null,
         "url": null,
         "course": null
@@ -756,7 +1176,73 @@
         "course": null
     },
     {
+        "id": 10027,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10028,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10029,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10039,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10040,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10045,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10046,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10047,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10048,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10049,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10050,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10051,
         "label": null,
         "url": null,
         "course": null
@@ -799,6 +1285,12 @@
     },
     {
         "id": 10068,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10071,
         "label": null,
         "url": null,
         "course": null
@@ -912,7 +1404,19 @@
         "course": null
     },
     {
+        "id": 10125,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10126,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10129,
         "label": null,
         "url": null,
         "course": null
@@ -966,6 +1470,12 @@
         "course": null
     },
     {
+        "id": 10163,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10167,
         "label": null,
         "url": null,
@@ -991,12 +1501,6 @@
     },
     {
         "id": 10186,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10209,
         "label": null,
         "url": null,
         "course": null
@@ -1050,6 +1554,18 @@
         "course": null
     },
     {
+        "id": 10229,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10235,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10239,
         "label": null,
         "url": null,
@@ -1069,18 +1585,6 @@
     },
     {
         "id": 10245,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10246,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10252,
         "label": null,
         "url": null,
         "course": null
@@ -1170,7 +1674,19 @@
         "course": null
     },
     {
+        "id": 10301,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10302,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10303,
         "label": null,
         "url": null,
         "course": null
@@ -1224,31 +1740,13 @@
         "course": null
     },
     {
-        "id": 10312,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 10314,
         "label": null,
         "url": null,
         "course": null
     },
     {
-        "id": 10315,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 10317,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10318,
         "label": null,
         "url": null,
         "course": null
@@ -1290,6 +1788,12 @@
         "course": null
     },
     {
+        "id": 10326,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10327,
         "label": null,
         "url": null,
@@ -1314,12 +1818,6 @@
         "course": null
     },
     {
-        "id": 10332,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 10339,
         "label": null,
         "url": null,
@@ -1327,6 +1825,18 @@
     },
     {
         "id": 10341,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10342,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10343,
         "label": null,
         "url": null,
         "course": null
@@ -1350,18 +1860,6 @@
         "course": null
     },
     {
-        "id": 10349,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10350,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 10351,
         "label": null,
         "url": null,
@@ -1369,12 +1867,6 @@
     },
     {
         "id": 10352,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10353,
         "label": null,
         "url": null,
         "course": null
@@ -1404,18 +1896,6 @@
         "course": null
     },
     {
-        "id": 10361,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10365,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 10369,
         "label": null,
         "url": null,
@@ -1429,12 +1909,6 @@
     },
     {
         "id": 10371,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10372,
         "label": null,
         "url": null,
         "course": null
@@ -1494,19 +1968,13 @@
         "course": null
     },
     {
-        "id": 10404,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 10405,
         "label": null,
         "url": null,
         "course": null
     },
     {
-        "id": 10406,
+        "id": 10408,
         "label": null,
         "url": null,
         "course": null
@@ -1531,6 +1999,12 @@
     },
     {
         "id": 10413,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10416,
         "label": null,
         "url": null,
         "course": null
@@ -1584,6 +2058,12 @@
         "course": null
     },
     {
+        "id": 10427,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10428,
         "label": null,
         "url": null,
@@ -1608,7 +2088,7 @@
         "course": null
     },
     {
-        "id": 10434,
+        "id": 10432,
         "label": null,
         "url": null,
         "course": null
@@ -1626,7 +2106,7 @@
         "course": null
     },
     {
-        "id": 10444,
+        "id": 10446,
         "label": null,
         "url": null,
         "course": null
@@ -1645,12 +2125,6 @@
     },
     {
         "id": 10449,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
-        "id": 10450,
         "label": null,
         "url": null,
         "course": null
@@ -1680,6 +2154,30 @@
         "course": null
     },
     {
+        "id": 10458,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10460,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10461,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10462,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 10465,
         "label": null,
         "url": null,
@@ -1687,6 +2185,24 @@
     },
     {
         "id": 10466,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10880,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10894,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 10954,
         "label": null,
         "url": null,
         "course": null
@@ -1968,6 +2484,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 11213,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 11214,
         "label": "Spatial Communications 1",
         "url": "https://handbook.uts.edu.au/subjects/11214.html",
@@ -1996,6 +2518,12 @@
         "label": "Architectural History and Theory: Critique",
         "url": "https://handbook.uts.edu.au/subjects/11222.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 11223,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 11225,
@@ -2110,6 +2638,12 @@
         "label": "Islamic Architecture 630-1700",
         "url": "https://handbook.uts.edu.au/subjects/11287.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 11290,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 11291,
@@ -2332,6 +2866,12 @@
         "label": "Architecture Special Project UG (Urban) B",
         "url": "https://handbook.uts.edu.au/subjects/11343.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 11355,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 11360,
@@ -2634,6 +3174,48 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 12225,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 12231,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 12232,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 12233,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 12234,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 12235,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 12236,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 12511,
         "label": "Construction Technology and Regulation",
         "url": "https://handbook.uts.edu.au/subjects/12511.html",
@@ -2680,6 +3262,60 @@
         "label": "Construction Cost Planning and Control",
         "url": "https://handbook.uts.edu.au/subjects/12591.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 13004,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13009,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13011,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13012,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13013,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13014,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13016,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13022,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 13032,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 13905,
@@ -3276,6 +3912,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 15641,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 15642,
         "label": "Public Sector Governance",
         "url": "https://handbook.uts.edu.au/subjects/15642.html",
@@ -3492,6 +4134,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 16125,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 16126,
         "label": "Appraisal and Statistics",
         "url": "https://handbook.uts.edu.au/subjects/16126.html",
@@ -3538,6 +4186,12 @@
         "label": "Cost Management 2: Estimating",
         "url": "https://handbook.uts.edu.au/subjects/16203.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 16204,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 16205,
@@ -3768,6 +4422,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 16334,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 16335,
         "label": "Advanced Valuation",
         "url": "https://handbook.uts.edu.au/subjects/16335.html",
@@ -3994,6 +4654,12 @@
         "label": "Construction for Developing Communities",
         "url": "https://handbook.uts.edu.au/subjects/16900.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 16904,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 16905,
@@ -4548,6 +5214,30 @@
         "course": "Business"
     },
     {
+        "id": 20700,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 20788,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 20789,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 20800,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21036,
         "label": "Managing Strategic Performance",
         "url": "https://handbook.uts.edu.au/subjects/21036.html",
@@ -4692,6 +5382,12 @@
         "course": "Business"
     },
     {
+        "id": 21130,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21212,
         "label": "People and Organisations",
         "url": "https://handbook.uts.edu.au/subjects/21212.html",
@@ -4702,6 +5398,18 @@
         "label": "Business and Social Impact",
         "url": "https://handbook.uts.edu.au/subjects/21214.html",
         "course": "Business"
+    },
+    {
+        "id": 21221,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 21226,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 21227,
@@ -4836,6 +5544,12 @@
         "course": "Business"
     },
     {
+        "id": 21632,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21634,
         "label": "Current Challenges in Tourism",
         "url": "https://handbook.uts.edu.au/subjects/21634.html",
@@ -4878,6 +5592,12 @@
         "course": "Business"
     },
     {
+        "id": 21641,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21643,
         "label": "Innovation Lab",
         "url": "https://handbook.uts.edu.au/subjects/21643.html",
@@ -4888,6 +5608,12 @@
         "label": "Law and Ethics for Managers",
         "url": "https://handbook.uts.edu.au/subjects/21644.html",
         "course": "Business"
+    },
+    {
+        "id": 21645,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 21646,
@@ -5034,6 +5760,12 @@
         "course": "Business"
     },
     {
+        "id": 21722,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21741,
         "label": "Operations and Quality Management",
         "url": "https://handbook.uts.edu.au/subjects/21741.html",
@@ -5058,16 +5790,34 @@
         "course": "Business"
     },
     {
+        "id": 21800,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21811,
         "label": "Global Strategic Management",
         "url": "https://handbook.uts.edu.au/subjects/21811.html",
         "course": "Business"
     },
     {
+        "id": 21827,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 21832,
         "label": "Organisational Sustainability: Analysis and Practice",
         "url": "https://handbook.uts.edu.au/subjects/21832.html",
         "course": "Business"
+    },
+    {
+        "id": 21844,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 21854,
@@ -5080,6 +5830,24 @@
         "label": "Career and Portfolio Planning",
         "url": "https://handbook.uts.edu.au/subjects/21856.html",
         "course": "Business"
+    },
+    {
+        "id": 21857,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 21866,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 21870,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 21877,
@@ -5394,6 +6162,12 @@
         "course": "Business"
     },
     {
+        "id": 22105,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 22107,
         "label": "Accounting for Business Decisions A",
         "url": "https://handbook.uts.edu.au/subjects/22107.html",
@@ -5514,6 +6288,12 @@
         "course": "Business"
     },
     {
+        "id": 22600,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 22605,
         "label": "Accounting Information Systems",
         "url": "https://handbook.uts.edu.au/subjects/22605.html",
@@ -5578,6 +6358,12 @@
         "label": "International Accounting",
         "url": "https://handbook.uts.edu.au/subjects/22777.html",
         "course": "Business"
+    },
+    {
+        "id": 22784,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 22787,
@@ -5688,10 +6474,28 @@
         "course": "Business"
     },
     {
+        "id": 23000,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 23001,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 23002,
         "label": "Market Design",
         "url": "https://handbook.uts.edu.au/subjects/23002.html",
         "course": "Business"
+    },
+    {
+        "id": 23003,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 23004,
@@ -5730,6 +6534,12 @@
         "course": "Business"
     },
     {
+        "id": 23418,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 23504,
         "label": "Economics of Competition and Strategy",
         "url": "https://handbook.uts.edu.au/subjects/23504.html",
@@ -5764,6 +6574,12 @@
         "label": "Empirical Methods for Policy Evaluation",
         "url": "https://handbook.uts.edu.au/subjects/23509.html",
         "course": "Business"
+    },
+    {
+        "id": 23565,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 23566,
@@ -5802,10 +6618,28 @@
         "course": "Business"
     },
     {
+        "id": 23572,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 23580,
         "label": "Contemporary Economic Perspectives (Capstone)",
         "url": "https://handbook.uts.edu.au/subjects/23580.html",
         "course": "Business"
+    },
+    {
+        "id": 23592,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 23593,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 23600,
@@ -6210,6 +7044,12 @@
         "course": "Business"
     },
     {
+        "id": 24105,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 24108,
         "label": "Marketing Foundations",
         "url": "https://handbook.uts.edu.au/subjects/24108.html",
@@ -6378,6 +7218,12 @@
         "course": "Business"
     },
     {
+        "id": 24746,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 24748,
         "label": "Deliver Customer Value",
         "url": "https://handbook.uts.edu.au/subjects/24748.html",
@@ -6534,6 +7380,18 @@
         "course": "Business"
     },
     {
+        "id": 25021,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25022,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 25072,
         "label": "Applied Financial Management",
         "url": "https://handbook.uts.edu.au/subjects/250720.html",
@@ -6576,6 +7434,12 @@
         "course": "Business"
     },
     {
+        "id": 25555,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 25556,
         "label": "The Financial System",
         "url": "https://handbook.uts.edu.au/subjects/25556.html",
@@ -6586,6 +7450,54 @@
         "label": "Corporate Finance: Theory and Practice",
         "url": "https://handbook.uts.edu.au/subjects/25557.html",
         "course": "Business"
+    },
+    {
+        "id": 25562,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25566,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25567,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25568,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25569,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25570,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25571,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25573,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 25574,
@@ -6606,6 +7518,12 @@
         "course": "Business"
     },
     {
+        "id": 25580,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 25602,
         "label": "Ethics in Finance",
         "url": "https://handbook.uts.edu.au/subjects/25602.html",
@@ -6618,6 +7536,12 @@
         "course": "Business"
     },
     {
+        "id": 25622,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 25624,
         "label": "Financial Metrics for Decision Making",
         "url": "https://handbook.uts.edu.au/subjects/25624.html",
@@ -6628,6 +7552,12 @@
         "label": "Financial Modelling and Analysis",
         "url": "https://handbook.uts.edu.au/subjects/25705.html",
         "course": "Business"
+    },
+    {
+        "id": 25706,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 25720,
@@ -6676,6 +7606,18 @@
         "label": "Advanced Corporate Valuation",
         "url": "https://handbook.uts.edu.au/subjects/25743.html",
         "course": "Business"
+    },
+    {
+        "id": 25745,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25746,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 25751,
@@ -6774,6 +7716,12 @@
         "course": "Business"
     },
     {
+        "id": 25781,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 25782,
         "label": "Alternative Investments",
         "url": "https://handbook.uts.edu.au/subjects/25782.html",
@@ -6802,6 +7750,12 @@
         "label": "Financial Management",
         "url": "https://handbook.uts.edu.au/subjects/25799.html",
         "course": "Business"
+    },
+    {
+        "id": 25839,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 25847,
@@ -6844,6 +7798,60 @@
         "label": "Finance Theory",
         "url": "https://handbook.uts.edu.au/subjects/25864.html",
         "course": "Business"
+    },
+    {
+        "id": 25871,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25872,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25873,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25874,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25875,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25876,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25877,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25878,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25879,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 25885,
@@ -6918,10 +7926,28 @@
         "course": "Business"
     },
     {
+        "id": 25917,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 25918,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 25924,
         "label": "Advanced Topics in Finance",
         "url": "https://handbook.uts.edu.au/subjects/25924.html",
         "course": "Business"
+    },
+    {
+        "id": 25926,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 25927,
@@ -7000,6 +8026,12 @@
         "label": "Health Economics and Evaluation",
         "url": "https://handbook.uts.edu.au/subjects/26101.html",
         "course": "Business"
+    },
+    {
+        "id": 26133,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 26134,
@@ -7296,10 +8328,34 @@
         "course": "Business"
     },
     {
+        "id": 27100,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27103,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27126,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 27154,
         "label": "Readings for Thesis",
         "url": "https://handbook.uts.edu.au/subjects/27154.html",
         "course": "Business"
+    },
+    {
+        "id": 27161,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 27173,
@@ -7308,16 +8364,202 @@
         "course": "Health"
     },
     {
+        "id": 27175,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27184,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27185,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27192,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27193,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27216,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27252,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27253,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27307,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27326,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27327,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27342,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27345,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27346,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27350,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27362,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27523,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 27620,
         "label": "Special Learning Project",
         "url": "https://handbook.uts.edu.au/subjects/27620.html",
         "course": "Business"
     },
     {
+        "id": 27628,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27642,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27647,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27648,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 27690,
         "label": "Honours Thesis 2",
         "url": "https://handbook.uts.edu.au/subjects/276902.html",
         "course": "Business"
+    },
+    {
+        "id": 27703,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27715,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27717,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27721,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27726,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27727,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27729,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27732,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27734,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 27765,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 27769,
@@ -7344,7 +8586,25 @@
         "course": "Business"
     },
     {
+        "id": 30708,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 30709,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 31002,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 31004,
         "label": null,
         "url": null,
         "course": null
@@ -7404,6 +8664,12 @@
         "course": "Information Technology"
     },
     {
+        "id": 31040,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 31060,
         "label": null,
         "url": null,
@@ -7420,6 +8686,12 @@
         "label": "Interactive Media",
         "url": "https://handbook.uts.edu.au/subjects/31080.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 31092,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 31097,
@@ -7468,6 +8740,12 @@
         "label": "IT Experience 2",
         "url": "https://handbook.uts.edu.au/subjects/31139.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 31140,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 31241,
@@ -7668,10 +8946,22 @@
         "course": "Information Technology"
     },
     {
+        "id": 31281,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 31282,
         "label": "Systems Testing and Quality Management",
         "url": "https://handbook.uts.edu.au/subjects/31282.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 31336,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 31337,
@@ -7687,6 +8977,12 @@
     },
     {
         "id": 31414,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 31424,
         "label": null,
         "url": null,
         "course": null
@@ -7722,6 +9018,12 @@
         "course": null
     },
     {
+        "id": 31473,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 31474,
         "label": null,
         "url": null,
@@ -7752,7 +9054,19 @@
         "course": null
     },
     {
+        "id": 31485,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 31487,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 31488,
         "label": null,
         "url": null,
         "course": null
@@ -7780,6 +9094,18 @@
         "label": "Industry Project 2",
         "url": "https://handbook.uts.edu.au/subjects/31492.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 31508,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 31603,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 31626,
@@ -7968,6 +9294,12 @@
         "course": "Information Technology"
     },
     {
+        "id": 32510,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 32513,
         "label": "Advanced Data Analytics Algorithms",
         "url": "https://handbook.uts.edu.au/subjects/32513.html",
@@ -7996,6 +9328,12 @@
         "label": "Global Information Systems",
         "url": "https://handbook.uts.edu.au/subjects/32531.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 32534,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 32541,
@@ -8092,6 +9430,12 @@
         "label": "Enterprise Software Testing",
         "url": "https://handbook.uts.edu.au/subjects/32571.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 32572,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 32601,
@@ -8304,6 +9648,12 @@
         "course": null
     },
     {
+        "id": 35111,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 35112,
         "label": "Mathematical Research Project A",
         "url": "https://handbook.uts.edu.au/subjects/35112.html",
@@ -8328,6 +9678,12 @@
         "course": null
     },
     {
+        "id": 35212,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 35231,
         "label": null,
         "url": null,
@@ -8335,6 +9691,12 @@
     },
     {
         "id": 35232,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 35241,
         "label": null,
         "url": null,
         "course": null
@@ -8364,6 +9726,12 @@
         "course": "Science"
     },
     {
+        "id": 35340,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 35353,
         "label": null,
         "url": null,
@@ -8374,6 +9742,12 @@
         "label": "Quality Control",
         "url": "https://handbook.uts.edu.au/subjects/35355.html",
         "course": "Science"
+    },
+    {
+        "id": 35361,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 35363,
@@ -8424,6 +9798,12 @@
         "course": "Science"
     },
     {
+        "id": 35466,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 35476,
         "label": "Thesis: Mathematics and Finance (Hons) A",
         "url": "https://handbook.uts.edu.au/subjects/35476.html",
@@ -8434,6 +9814,18 @@
         "label": "Thesis: Mathematics and Finance (Hons) B",
         "url": "https://handbook.uts.edu.au/subjects/35477.html",
         "course": "Science"
+    },
+    {
+        "id": 35493,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 35494,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 35502,
@@ -8482,6 +9874,12 @@
         "label": "Advanced Analysis",
         "url": "https://handbook.uts.edu.au/subjects/35509.html",
         "course": "Science"
+    },
+    {
+        "id": 35511,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 36100,
@@ -8790,6 +10188,12 @@
         "course": "Science"
     },
     {
+        "id": 37458,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 37464,
         "label": "Advanced Stochastic Processes",
         "url": "https://handbook.uts.edu.au/subjects/37464.html",
@@ -8862,6 +10266,78 @@
         "course": "Information Technology"
     },
     {
+        "id": 40700,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40701,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40710,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40713,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40715,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40729,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40730,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40742,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40748,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40753,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40790,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 40834,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 41001,
         "label": "Cloud Computing and Software as a Service",
         "url": "https://handbook.uts.edu.au/subjects/41001.html",
@@ -8878,6 +10354,12 @@
         "label": "AI/Analytics Capstone Project",
         "url": "https://handbook.uts.edu.au/subjects/41004.html",
         "course": "Information Technology"
+    },
+    {
+        "id": 41009,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 41012,
@@ -9144,6 +10626,18 @@
         "course": "Engineering"
     },
     {
+        "id": 41061,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 41062,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 41065,
         "label": "IT Experience Review",
         "url": "https://handbook.uts.edu.au/subjects/41065.html",
@@ -9178,6 +10672,18 @@
         "label": "Embedded Mechatronics Studio",
         "url": "https://handbook.uts.edu.au/subjects/41070.html",
         "course": "Engineering"
+    },
+    {
+        "id": 41071,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 41072,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 41076,
@@ -10704,6 +12210,12 @@
         "course": "Engineering"
     },
     {
+        "id": 43506,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 43801,
         "label": "Digital Engineering Fundamentals",
         "url": "https://handbook.uts.edu.au/subjects/43801.html",
@@ -10908,6 +12420,12 @@
         "course": "Engineering"
     },
     {
+        "id": 48342,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 48349,
         "label": "Structural Analysis",
         "url": "https://handbook.uts.edu.au/subjects/48349.html",
@@ -10930,6 +12448,12 @@
         "label": "Concrete Design",
         "url": "https://handbook.uts.edu.au/subjects/48353.html",
         "course": "Engineering"
+    },
+    {
+        "id": 48359,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 48360,
@@ -11161,6 +12685,12 @@
     },
     {
         "id": 48623,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 48640,
         "label": null,
         "url": null,
         "course": null
@@ -11628,6 +13158,18 @@
         "course": "Engineering"
     },
     {
+        "id": 49211,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 49212,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 49227,
         "label": "Wireless Sensor Networks",
         "url": "https://handbook.uts.edu.au/subjects/49227.html",
@@ -11635,6 +13177,12 @@
     },
     {
         "id": 49239,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 49247,
         "label": null,
         "url": null,
         "course": null
@@ -11676,6 +13224,24 @@
         "course": "Engineering"
     },
     {
+        "id": 49263,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 49264,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 49265,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 49266,
         "label": null,
         "url": null,
@@ -11695,6 +13261,12 @@
     },
     {
         "id": 49277,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 49278,
         "label": null,
         "url": null,
         "course": null
@@ -11755,6 +13327,12 @@
     },
     {
         "id": 49454,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 49459,
         "label": null,
         "url": null,
         "course": null
@@ -11844,7 +13422,19 @@
         "course": "Engineering"
     },
     {
+        "id": 50001,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 50002,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50003,
         "label": null,
         "url": null,
         "course": null
@@ -11863,6 +13453,12 @@
     },
     {
         "id": 50260,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50329,
         "label": null,
         "url": null,
         "course": null
@@ -11902,6 +13498,12 @@
         "label": "Exchange Subject F",
         "url": "https://handbook.uts.edu.au/subjects/50725.html",
         "course": "Communication"
+    },
+    {
+        "id": 50799,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 50816,
@@ -11958,7 +13560,73 @@
         "course": "Communication"
     },
     {
+        "id": 50832,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50833,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50834,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50835,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50838,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50839,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50842,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50843,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50855,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50856,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 50857,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 50858,
         "label": null,
         "url": null,
         "course": null
@@ -12468,16 +14136,286 @@
         "course": "Communication"
     },
     {
+        "id": 54005,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54006,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54020,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54021,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54022,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54023,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54024,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54025,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54030,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54031,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54032,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54033,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54034,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54035,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54040,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54041,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54042,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54043,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54044,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54045,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54046,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54047,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54048,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54050,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54051,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54052,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54053,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54054,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54055,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54060,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54061,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54062,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54063,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54064,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54065,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54070,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54071,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54072,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54073,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54074,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54075,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54080,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 54081,
         "label": "Global Cinema",
         "url": "https://handbook.uts.edu.au/subjects/54081.html",
         "course": "Communication"
     },
     {
+        "id": 54082,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 54083,
         "label": "Sexing Power",
         "url": "https://handbook.uts.edu.au/subjects/54083.html",
         "course": "Communication"
+    },
+    {
+        "id": 54085,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54090,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 54091,
@@ -12496,6 +14434,24 @@
         "label": "Environmental Communication",
         "url": "https://handbook.uts.edu.au/subjects/54094.html",
         "course": "Communication"
+    },
+    {
+        "id": 54095,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54096,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 54097,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 54098,
@@ -12642,10 +14598,28 @@
         "course": "Communication"
     },
     {
+        "id": 55995,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 55996,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 57000,
         "label": "Application Implementation with Microsoft Dynamics",
         "url": "https://handbook.uts.edu.au/subjects/570002.html",
         "course": "Communication"
+    },
+    {
+        "id": 57009,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 57010,
@@ -12654,10 +14628,64 @@
         "course": "Communication"
     },
     {
+        "id": 57013,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57021,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57022,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57023,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57024,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57025,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57028,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 57031,
         "label": "Creative Non-fiction",
         "url": "https://handbook.uts.edu.au/subjects/57031.html",
         "course": "Communication"
+    },
+    {
+        "id": 57034,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57035,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 57041,
@@ -12676,6 +14704,12 @@
         "label": "Book Publishing and Marketing",
         "url": "https://handbook.uts.edu.au/subjects/57053.html",
         "course": "Communication"
+    },
+    {
+        "id": 57061,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 57083,
@@ -12708,10 +14742,28 @@
         "course": "Communication"
     },
     {
+        "id": 57131,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57132,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 57134,
         "label": "Theory and Creative Writing",
         "url": "https://handbook.uts.edu.au/subjects/57134.html",
         "course": "Communication"
+    },
+    {
+        "id": 57138,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 57142,
@@ -12726,10 +14778,58 @@
         "course": "Communication"
     },
     {
+        "id": 57149,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57151,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57161,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 57162,
         "label": "Memory and Life Writing",
         "url": "https://handbook.uts.edu.au/subjects/57162.html",
         "course": "Communication"
+    },
+    {
+        "id": 57167,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57168,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57173,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57175,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57178,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 57180,
@@ -12738,10 +14838,46 @@
         "course": "Communication"
     },
     {
+        "id": 57182,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57186,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57188,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 57189,
         "label": "Writing Project 2",
         "url": "https://handbook.uts.edu.au/subjects/57189.html",
         "course": "Communication"
+    },
+    {
+        "id": 57190,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57191,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 57192,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 57193,
@@ -13020,13 +15156,199 @@
         "course": "Communication"
     },
     {
+        "id": 58101,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58102,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58103,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58111,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58113,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58114,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58115,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58116,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58117,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 58118,
         "label": null,
         "url": null,
         "course": null
     },
     {
+        "id": 58121,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58122,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58125,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58128,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58210,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58213,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58214,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58216,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58217,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58224,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58231,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58311,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58312,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58313,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 58314,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58318,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58323,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58327,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58328,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58330,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58331,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58337,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 58339,
         "label": null,
         "url": null,
         "course": null
@@ -13054,6 +15376,12 @@
         "label": "Research Dissertation 2 (Communication)",
         "url": "https://handbook.uts.edu.au/subjects/58724.html",
         "course": "Communication"
+    },
+    {
+        "id": 58902,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 58999,
@@ -13116,6 +15444,24 @@
         "course": "International Studies and Social Sciences"
     },
     {
+        "id": 59715,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 59716,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 59717,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 59718,
         "label": "Developing English: Studies of the Australian Natural Environment",
         "url": "https://handbook.uts.edu.au/subjects/59718.html",
@@ -13144,6 +15490,12 @@
         "label": "Neighbourhoods and Stories",
         "url": "https://handbook.uts.edu.au/subjects/59722.html",
         "course": "International Studies and Social Sciences"
+    },
+    {
+        "id": 60001,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 60002,
@@ -13386,6 +15738,24 @@
         "course": "Science"
     },
     {
+        "id": 60776,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 60777,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 60800,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 60902,
         "label": null,
         "url": null,
@@ -13536,6 +15906,12 @@
         "course": "Science"
     },
     {
+        "id": 65022,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 65027,
         "label": "Honours (Forensic Science) 1",
         "url": "https://handbook.uts.edu.au/subjects/65027.html",
@@ -13576,6 +15952,12 @@
         "label": "Chemistry 1",
         "url": "https://handbook.uts.edu.au/subjects/65111.html",
         "course": "Science"
+    },
+    {
+        "id": 65201,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 65202,
@@ -13728,6 +16110,12 @@
         "course": "Science"
     },
     {
+        "id": 65541,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 65544,
         "label": "Chemical Criminalistics",
         "url": "https://handbook.uts.edu.au/subjects/65544.html",
@@ -13836,10 +16224,22 @@
         "course": "Science"
     },
     {
+        "id": 68041,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 68044,
         "label": "Characterisation of Energy Efficient Materials",
         "url": "https://handbook.uts.edu.au/subjects/68044.html",
         "course": "Science"
+    },
+    {
+        "id": 68070,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 68075,
@@ -14064,6 +16464,30 @@
         "course": "Science"
     },
     {
+        "id": 70001,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 70002,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 70100,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 70101,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 70102,
         "label": "Foundations of Law",
         "url": "https://handbook.uts.edu.au/subjects/70102.html",
@@ -14080,6 +16504,12 @@
         "label": "Civil Practice",
         "url": "https://handbook.uts.edu.au/subjects/70104.html",
         "course": "Law"
+    },
+    {
+        "id": 70105,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 70106,
@@ -14112,10 +16542,28 @@
         "course": "Law"
     },
     {
+        "id": 70113,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 70114,
         "label": "Criminal Law and Procedure",
         "url": "https://handbook.uts.edu.au/subjects/70114.html",
         "course": "Law"
+    },
+    {
+        "id": 70115,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 70116,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 70120,
@@ -14130,6 +16578,18 @@
         "course": "Law"
     },
     {
+        "id": 70217,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 70218,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 70311,
         "label": "Torts",
         "url": "https://handbook.uts.edu.au/subjects/70311.html",
@@ -14142,6 +16602,12 @@
         "course": "Law"
     },
     {
+        "id": 70318,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 70327,
         "label": "Introduction to Property and Commercial Law",
         "url": "https://handbook.uts.edu.au/subjects/70327.html",
@@ -14152,6 +16618,12 @@
         "label": "Corporate Law",
         "url": "https://handbook.uts.edu.au/subjects/70417.html",
         "course": "Law"
+    },
+    {
+        "id": 70516,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 70517,
@@ -14170,6 +16642,12 @@
         "label": "Administrative Law",
         "url": "https://handbook.uts.edu.au/subjects/70617.html",
         "course": "Law"
+    },
+    {
+        "id": 70717,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 71116,
@@ -14200,6 +16678,12 @@
         "label": "Legal and Professional Skills",
         "url": "https://handbook.uts.edu.au/subjects/75424.html",
         "course": "Law"
+    },
+    {
+        "id": 76001,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 76002,
@@ -14386,6 +16870,12 @@
         "label": "Dispute Resolution Advocacy",
         "url": "https://handbook.uts.edu.au/subjects/76052.html",
         "course": "Law"
+    },
+    {
+        "id": 76053,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 76056,
@@ -14598,10 +17088,52 @@
         "course": "Law"
     },
     {
+        "id": 76211,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 76212,
         "label": "Revenue Law",
         "url": "https://handbook.uts.edu.au/subjects/76212.html",
         "course": "Law"
+    },
+    {
+        "id": 76404,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 76411,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 76421,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 76431,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 76451,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 76502,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 76516,
@@ -14620,6 +17152,12 @@
         "label": "Intellectual Property and Traditional Knowledge",
         "url": "https://handbook.uts.edu.au/subjects/76521.html",
         "course": "Law"
+    },
+    {
+        "id": 76602,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 76801,
@@ -14670,6 +17208,90 @@
         "course": "Law"
     },
     {
+        "id": 77110,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77150,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77210,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77251,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77410,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77420,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77430,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77450,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77460,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77520,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77530,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77542,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77543,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77620,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 77696,
         "label": "PhD Thesis: Law",
         "url": "https://handbook.uts.edu.au/subjects/77696.html",
@@ -14698,6 +17320,12 @@
         "label": "International Trade Law",
         "url": "https://handbook.uts.edu.au/subjects/77716.html",
         "course": "Law"
+    },
+    {
+        "id": 77722,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 77725,
@@ -14748,6 +17376,12 @@
         "course": "Law"
     },
     {
+        "id": 77892,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 77893,
         "label": "Designs Law and Practice",
         "url": "https://handbook.uts.edu.au/subjects/77893.html",
@@ -14766,10 +17400,22 @@
         "course": "Law"
     },
     {
+        "id": 77896,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 77898,
         "label": "Patent Law",
         "url": "https://handbook.uts.edu.au/subjects/77898.html",
         "course": "Law"
+    },
+    {
+        "id": 77901,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 77903,
@@ -14782,6 +17428,36 @@
         "label": "Preparing for Intellectual Property Practice",
         "url": "https://handbook.uts.edu.au/subjects/77905.html",
         "course": "Law"
+    },
+    {
+        "id": 77911,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77912,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77913,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77917,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 77918,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 77930,
@@ -14844,6 +17520,12 @@
         "course": "Law"
     },
     {
+        "id": 78025,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78026,
         "label": "Business and Law in China",
         "url": "https://handbook.uts.edu.au/subjects/78026.html",
@@ -14868,10 +17550,28 @@
         "course": "Law"
     },
     {
+        "id": 78102,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78104,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78105,
         "label": "Genetics and the Law",
         "url": "https://handbook.uts.edu.au/subjects/78105.html",
         "course": "Law"
+    },
+    {
+        "id": 78106,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78107,
@@ -14880,10 +17580,28 @@
         "course": "Law"
     },
     {
+        "id": 78112,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78113,
         "label": "Securities Regulation",
         "url": "https://handbook.uts.edu.au/subjects/78113.html",
         "course": "Law"
+    },
+    {
+        "id": 78118,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78121,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78122,
@@ -14892,10 +17610,28 @@
         "course": "Law"
     },
     {
+        "id": 78123,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78125,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78126,
         "label": "Corporate Governance",
         "url": "https://handbook.uts.edu.au/subjects/78126.html",
         "course": "Law"
+    },
+    {
+        "id": 78128,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78129,
@@ -14904,10 +17640,52 @@
         "course": "Law"
     },
     {
+        "id": 78136,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78146,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78147,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78148,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78149,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78150,
         "label": "Law and Mental Health",
         "url": "https://handbook.uts.edu.au/subjects/78150.html",
         "course": "Law"
+    },
+    {
+        "id": 78151,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78152,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78153,
@@ -14916,10 +17694,64 @@
         "course": "Law"
     },
     {
+        "id": 78154,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78155,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78156,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78157,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78158,
         "label": "Private International Law",
         "url": "https://handbook.uts.edu.au/subjects/78158.html",
         "course": "Law"
+    },
+    {
+        "id": 78165,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78166,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78175,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78178,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78179,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78181,
@@ -14934,10 +17766,22 @@
         "course": "Law"
     },
     {
+        "id": 78183,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78184,
         "label": "Intellectual Property: Law and Policy",
         "url": "https://handbook.uts.edu.au/subjects/78184.html",
         "course": "Law"
+    },
+    {
+        "id": 78185,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78186,
@@ -14946,10 +17790,64 @@
         "course": "Law"
     },
     {
+        "id": 78187,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78188,
         "label": "Intellectual Property Commercialisation",
         "url": "https://handbook.uts.edu.au/subjects/78188.html",
         "course": "Law"
+    },
+    {
+        "id": 78189,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78190,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78191,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78192,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78193,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78194,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78195,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78196,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78206,
@@ -14958,10 +17856,22 @@
         "course": "Law"
     },
     {
+        "id": 78207,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78210,
         "label": "Law and Literature",
         "url": "https://handbook.uts.edu.au/subjects/78210.html",
         "course": "Law"
+    },
+    {
+        "id": 78211,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78216,
@@ -14970,10 +17880,22 @@
         "course": "Law"
     },
     {
+        "id": 78217,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78218,
         "label": "Animal Law and Policy in Australia",
         "url": "https://handbook.uts.edu.au/subjects/78218.html",
         "course": "Law"
+    },
+    {
+        "id": 78219,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78220,
@@ -14982,16 +17904,34 @@
         "course": "Law"
     },
     {
+        "id": 78221,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78222,
         "label": "Law of Slavery and Human Trafficking",
         "url": "https://handbook.uts.edu.au/subjects/78222.html",
         "course": "Law"
     },
     {
+        "id": 78223,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 78229,
         "label": "Disability and the Law",
         "url": "https://handbook.uts.edu.au/subjects/78229.html",
         "course": "Law"
+    },
+    {
+        "id": 78230,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78235,
@@ -15046,6 +17986,18 @@
         "label": "Privacy and Surveillance: Law and Policy",
         "url": "https://handbook.uts.edu.au/subjects/78248.html",
         "course": "Law"
+    },
+    {
+        "id": 78249,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78255,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78257,
@@ -15112,6 +18064,18 @@
         "label": "Special Topics in Elder Law",
         "url": "https://handbook.uts.edu.au/subjects/78271.html",
         "course": "Law"
+    },
+    {
+        "id": 78272,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 78273,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 78274,
@@ -15270,10 +18234,22 @@
         "course": "Law"
     },
     {
+        "id": 79004,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 79006,
         "label": "Intellectual Property Commercialisation",
         "url": "https://handbook.uts.edu.au/subjects/79006.html",
         "course": "Law"
+    },
+    {
+        "id": 79010,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 79011,
@@ -15312,6 +18288,12 @@
         "course": "Law"
     },
     {
+        "id": 79031,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 79032,
         "label": "Competition and Consumer Law",
         "url": "https://handbook.uts.edu.au/subjects/79032.html",
@@ -15324,10 +18306,70 @@
         "course": "Law"
     },
     {
+        "id": 79035,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 79036,
         "label": "Retirement and Estate Planning",
         "url": "https://handbook.uts.edu.au/subjects/79036.html",
         "course": "Law"
+    },
+    {
+        "id": 79203,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79333,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79508,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79510,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79511,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79512,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79513,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79514,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 79515,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 79603,
@@ -15918,6 +18960,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 83120,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 83121,
         "label": "Fashion Communication: An Introduction",
         "url": "https://handbook.uts.edu.au/subjects/83121.html",
@@ -15936,6 +18984,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 83232,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 83233,
         "label": "Fashion Illustration Fundamentals 2",
         "url": "https://handbook.uts.edu.au/subjects/83233.html",
@@ -15948,6 +19002,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 83342,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 83343,
         "label": "Fashion Design: Past to Present",
         "url": "https://handbook.uts.edu.au/subjects/83343.html",
@@ -15958,6 +19018,24 @@
         "label": "Fashion Communication: Drawing and Digital Media",
         "url": "https://handbook.uts.edu.au/subjects/83344.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 83345,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 83561,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 83562,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 83563,
@@ -15982,6 +19060,12 @@
         "label": "Contemporary Fashion Styling",
         "url": "https://handbook.uts.edu.au/subjects/83566.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 83567,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 83568,
@@ -16090,6 +19174,12 @@
         "label": "Men's Collection",
         "url": "https://handbook.uts.edu.au/subjects/83884.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 83885,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 83886,
@@ -16252,6 +19342,18 @@
         "label": "Ecodesign Practice",
         "url": "https://handbook.uts.edu.au/subjects/84135.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 84140,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 84471,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 84610,
@@ -17232,6 +20334,12 @@
         "course": "Design, Architecture and Building"
     },
     {
+        "id": 88100,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 88211,
         "label": "Animation Studio: Narrative Experimentations",
         "url": "https://handbook.uts.edu.au/subjects/88211.html",
@@ -17242,6 +20350,12 @@
         "label": "Animation Studio: Animation Practice",
         "url": "https://handbook.uts.edu.au/subjects/88212.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 88213,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 88304,
@@ -17296,6 +20410,12 @@
         "label": "Photography 2: Communication",
         "url": "https://handbook.uts.edu.au/subjects/88405.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 88408,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 88416,
@@ -17626,6 +20746,12 @@
         "label": "Textile Studio: Advanced",
         "url": "https://handbook.uts.edu.au/subjects/89017.html",
         "course": "Design, Architecture and Building"
+    },
+    {
+        "id": 89018,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 89021,
@@ -18156,7 +21282,19 @@
         "course": "Health"
     },
     {
+        "id": 90225,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 90330,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90373,
         "label": null,
         "url": null,
         "course": null
@@ -18174,6 +21312,24 @@
         "course": null
     },
     {
+        "id": 90417,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90480,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90481,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 90483,
         "label": null,
         "url": null,
@@ -18181,6 +21337,18 @@
     },
     {
         "id": 90484,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90485,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90486,
         "label": null,
         "url": null,
         "course": null
@@ -18210,6 +21378,12 @@
         "course": null
     },
     {
+        "id": 90633,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 90644,
         "label": null,
         "url": null,
@@ -18217,6 +21391,12 @@
     },
     {
         "id": 90677,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90688,
         "label": null,
         "url": null,
         "course": null
@@ -18246,6 +21426,12 @@
         "course": null
     },
     {
+        "id": 90800,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 90831,
         "label": null,
         "url": null,
@@ -18259,6 +21445,18 @@
     },
     {
         "id": 90839,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90891,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 90893,
         "label": null,
         "url": null,
         "course": null
@@ -18283,6 +21481,12 @@
     },
     {
         "id": 91006,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 91009,
         "label": null,
         "url": null,
         "course": null
@@ -18358,6 +21562,12 @@
         "label": "Nature and Evolution",
         "url": "https://handbook.uts.edu.au/subjects/91123.html",
         "course": "Science"
+    },
+    {
+        "id": 91124,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 91126,
@@ -18672,6 +21882,12 @@
         "course": null
     },
     {
+        "id": 91335,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 91338,
         "label": null,
         "url": null,
@@ -18679,6 +21895,12 @@
     },
     {
         "id": 91342,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 91359,
         "label": null,
         "url": null,
         "course": null
@@ -18954,6 +22176,12 @@
         "course": "Science"
     },
     {
+        "id": 91703,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 91705,
         "label": "Medical Devices and Diagnostics",
         "url": "https://handbook.uts.edu.au/subjects/91705.html",
@@ -18996,6 +22224,12 @@
         "course": "Science"
     },
     {
+        "id": 91816,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 91817,
         "label": "Medical Biotechnology",
         "url": "https://handbook.uts.edu.au/subjects/91817.html",
@@ -19006,6 +22240,12 @@
         "label": "Environmental Biotechnology",
         "url": "https://handbook.uts.edu.au/subjects/91818.html",
         "course": "Science"
+    },
+    {
+        "id": 91894,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 91913,
@@ -19222,6 +22462,12 @@
         "label": "Sport and Exercise Science Research Dissertation 2",
         "url": "https://handbook.uts.edu.au/subjects/92056.html",
         "course": "Health"
+    },
+    {
+        "id": 92057,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 92059,
@@ -21216,6 +24462,24 @@
         "course": "Health"
     },
     {
+        "id": 92961,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 92962,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
+        "id": 92972,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 92973,
         "label": "Fundamentals of Qualitative Research",
         "url": "https://handbook.uts.edu.au/subjects/92973.html",
@@ -21568,6 +24832,12 @@
         "label": "Complexity and Sustainability",
         "url": "https://handbook.uts.edu.au/subjects/94665.html",
         "course": "Transdisciplinary Innovation"
+    },
+    {
+        "id": 94679,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 94680,
@@ -24078,12 +27348,6 @@
         "course": "International Studies and Social Sciences"
     },
     {
-        "id": 97640,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 97641,
         "label": "Contemporary France",
         "url": "https://handbook.uts.edu.au/subjects/976411.html",
@@ -24106,12 +27370,6 @@
         "label": "Contemporary Spain",
         "url": "https://handbook.uts.edu.au/subjects/976451.html",
         "course": "International Studies and Social Sciences"
-    },
-    {
-        "id": 97650,
-        "label": null,
-        "url": null,
-        "course": null
     },
     {
         "id": 97700,
@@ -24372,12 +27630,6 @@
         "course": "International Studies and Social Sciences"
     },
     {
-        "id": 97933,
-        "label": null,
-        "url": null,
-        "course": null
-    },
-    {
         "id": 97950,
         "label": "Research in International Studies",
         "url": "https://handbook.uts.edu.au/subjects/979508.html",
@@ -24576,6 +27828,12 @@
         "course": "International Studies and Social Sciences"
     },
     {
+        "id": 99215,
+        "label": null,
+        "url": null,
+        "course": null
+    },
+    {
         "id": 99218,
         "label": "Intercultural Communication",
         "url": "https://handbook.uts.edu.au/subjects/99218.html",
@@ -24610,6 +27868,12 @@
         "label": "Introduction to Chinese Herbal Medicine",
         "url": "https://handbook.uts.edu.au/subjects/99567.html",
         "course": "Science"
+    },
+    {
+        "id": 99584,
+        "label": null,
+        "url": null,
+        "course": null
     },
     {
         "id": 99618,
@@ -24658,12 +27922,6 @@
         "label": "Point Location and Acupuncture Anatomy",
         "url": "https://handbook.uts.edu.au/subjects/99641.html",
         "course": "Science"
-    },
-    {
-        "id": 99643,
-        "label": null,
-        "url": null,
-        "course": null
     },
     {
         "id": 99644,
