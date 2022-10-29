@@ -22,7 +22,7 @@ function App() {
           // @ts-ignore
           node.label
             ? // @ts-ignore
-              `${node.label}: ${node.id?.toString() ?? ""}`
+              `${node.id?.toString() ?? ""}: ${node.label}`
             : node.id?.toString()
         );
         sprite.textHeight = 8;
