@@ -18,8 +18,13 @@ function App() {
       linkCurvature={0.25}
       nodeAutoColorBy="group"
       nodeThreeObject={(node) => {
-        // @ts-ignore
-        const sprite = new SpriteText(node.label! ?? node.id);
+        const sprite = new SpriteText(
+          // @ts-ignore
+          node.label
+            ? // @ts-ignore
+              `${node.label}: ${node.id?.toString() ?? ""}`
+            : node.id?.toString()
+        );
         sprite.textHeight = 8;
 
         return sprite;
