@@ -101,7 +101,7 @@ function App() {
       nodeLabel={(node) => node.label ?? node.id}
       nodeAutoColorBy="course"
       enableNodeDrag={false}
-      linkDirectionalParticles={1}
+      linkDirectionalParticles={3}
       nodeThreeObject={(node) => {
         if (node.id === subjectId) {
           node.fx = 0;
