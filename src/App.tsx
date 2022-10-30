@@ -90,7 +90,6 @@ function App() {
       linkDirectionalArrowLength={3.5}
       linkDirectionalArrowRelPos={1}
       linkCurvature={0.25}
-      nodeRelSize={8}
       // @ts-ignore
       nodeLabel={(node) => node.label ?? node.id}
       nodeAutoColorBy="course"
