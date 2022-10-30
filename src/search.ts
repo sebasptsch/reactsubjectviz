@@ -210,3 +210,47 @@ export function isolatedNodes(edges: DirectedEdge[]): number[] {
     everything(edges).filter((id) => related(id, edges).length === 0)
   );
 }
+
+/**
+ * Returns the travelled nodes in the graph.
+ * @param id The id of the node to find the relatives of.
+ * @param edges The edges in the graph.
+ * @param direction The direction of the relatives to find.
+ * @returns The ids of the relatives of the node.
+ */
+export function travel(
+  id: number,
+  edges: DirectedEdge[],
+  direction: "up" | "down"
+): number[] {
+  const parentsOfId = parents(id, edges);
+  const childrenOfId = children(id, edges);
+  if (direction === "up") {
+    return uniqueNumbers(
+      parentsOfId.concat(
+        parentsOfId.flatMap((parent) => travel(parent, edges, direction))
+      )
+    );
+  } else {
+    return uniqueNumbers(
+      childrenOfId.concat(
+        childrenOfId.flatMap((child) => travel(child, edges, direction))
+      )
+    );
+  }
+}
+
+/**
+ * Returns the travelled nodes in the graph along with the node itself.
+ * @param id The id of the node to find the relatives of.
+ * @param edges The edges in the graph.
+ * @param direction The direction of the relatives to find.
+ * @returns The ids of the relatives of the node and the id of the node.
+ */
+export function travelAndSelf(
+  id: number,
+  edges: DirectedEdge[],
+  direction: "up" | "down"
+): number[] {
+  return uniqueNumbers(travel(id, edges, direction).concat(id));
+}
