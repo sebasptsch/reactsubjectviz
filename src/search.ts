@@ -1,3 +1,68 @@
+/** A strategy to traverse a directed graph.
+ * * `"web"`: a connected graph of all reachable vertices from `id`.
+ * * `"ancestors"`: all vertices that lead to `id`.
+ * * `"descendants"`: all vertices that follow from `id`.
+ * * `"tree"`: union of `"ancestors"`, `"descendants"` and `id`.
+*/
+export type Traversal = "web" | "ancestors" | "descendants" | "tree";
+
+/** Traverse the graph `edges` starting from `id`, with
+ * `mode` determining the returned vertex cover.
+*/
+export function traverse(
+  id: number,
+  edges: DirectedEdge[],
+  mode: Traversal
+): Set<number> {
+  if (mode == "tree") {
+    return new Set<number>([
+      id,
+      ...traverse(id, edges, "ancestors"),
+      ...traverse(id, edges, "descendants"),
+    ]);
+  }
+
+  const visited = new Set<number>([ id ]);
+
+  let running = true;
+  while (running) {
+    // Just try looping through all edges once
+    // If a valid edge is found, then it's possible a previous once has
+    // become valid and running will become true
+    // to allow another iteration
+    running = false;
+    // Go through each directed each in the graph
+    for (const edge of edges) {
+      // If the current edge points to an already visited vertex
+      if (
+        (mode == "ancestors" || mode == "web")
+        && !visited.has(edge.source)
+        && visited.has(edge.target)
+      ) {
+        // Add the edge's origin vertex
+        visited.add(edge.source);
+        // Keep scanning in case of more valid edges
+        running = true;
+      }
+      // If the current edge leads from an already visited vertex
+      if (
+        (mode == "descendants" || mode == "web")
+        && !visited.has(edge.target)
+        && visited.has(edge.source)
+      ) {
+        // Add the edge's target vertex
+        visited.add(edge.target);
+        // Keep scanning in case of more valid edges
+        running = true;
+      }
+    }
+  }
+
+  visited.delete(id);
+
+  return visited;
+}
+
 /**
  * Structure of a node in the graph.
  */
