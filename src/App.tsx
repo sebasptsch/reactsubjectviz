@@ -3,7 +3,11 @@ import { useCallback, useEffect, useMemo, useRef } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
 import edges from "./edges.json";
-import { useSearchParamsStateNumber, useWindowSize } from "./hooks";
+import {
+  useSearchParamsStateBoolean,
+  useSearchParamsStateNumber,
+  useWindowSize,
+} from "./hooks";
 import nodesFromFile from "./nodes.json";
 import { relatedAndSelf } from "./search";
 const graphData = {
@@ -35,18 +39,28 @@ function App() {
     "subjectId",
     48024
   );
+  const [circleMode, setCircleMode] = useSearchParamsStateBoolean(
+    "circleMode",
+    false
+  );
 
   useEffect(() => {
     datRef.current = new dat.GUI();
     const gui = datRef.current;
     var params = {
       subjectId,
+      circleMode,
     };
 
     gui
       .add(params, "subjectId", 0, 100000, 1)
       .name("Subject ID")
       .onFinishChange(setSubjectId);
+
+    gui
+      .add(params, "circleMode")
+      .name("Circle Mode")
+      .onFinishChange(setCircleMode);
 
     return () => {
       gui.destroy();
@@ -102,27 +116,31 @@ function App() {
       nodeAutoColorBy="course"
       enableNodeDrag={true}
       linkDirectionalParticles={3}
-      nodeThreeObject={(node) => {
-        if (node.id === subjectId) {
-          node.fx = 0;
-          node.fy = 0;
-          node.fz = 0;
-        }
+      nodeThreeObject={
+        circleMode
+          ? undefined
+          : (node) => {
+              if (node.id === subjectId) {
+                node.fx = 0;
+                node.fy = 0;
+                node.fz = 0;
+              }
 
-        const sprite = new SpriteText(
-          // @ts-ignore
-          node.label
-            ? // @ts-ignore
-              `${node.id?.toString() ?? ""}: ${node.label}`
-            : node.id?.toString()
-        );
-        sprite.textHeight = 8;
-        sprite.fontWeight = node.id === subjectId ? "bold" : "normal";
-        // @ts-ignore
-        sprite.color = node.color;
-        sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
-        return sprite;
-      }}
+              const sprite = new SpriteText(
+                // @ts-ignore
+                node.label
+                  ? // @ts-ignore
+                    `${node.id?.toString() ?? ""}: ${node.label}`
+                  : node.id?.toString()
+              );
+              sprite.textHeight = 8;
+              sprite.fontWeight = node.id === subjectId ? "bold" : "normal";
+              // @ts-ignore
+              sprite.color = node.color;
+              sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
+              return sprite;
+            }
+      }
       onNodeClick={(node, e) => {
         if (e.ctrlKey) {
           // @ts-ignore
