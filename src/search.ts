@@ -3,7 +3,7 @@ import edges from "./edges.json";
 // depth first search taking start and depth outputting array of ids
 export function dfs(
   start: number,
-  depth: number,
+  maxDepth: number,
   bidirectional = false
 ): number[] {
   const visited = new Set();
@@ -19,6 +19,10 @@ export function dfs(
       return;
     }
     for (const edge of edges) {
+      if (!edge) {
+        console.log("no edge");
+      }
+
       if (edge.source === id) {
         dfsTravel(edge.target, depth - 1);
       } else if (edge.target === id) {
@@ -27,7 +31,7 @@ export function dfs(
     }
   }
 
-  dfsTravel(start, depth);
+  dfsTravel(start, maxDepth);
   return result;
 }
 
