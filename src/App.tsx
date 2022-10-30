@@ -5,7 +5,7 @@ import SpriteText from "three-spritetext";
 import edges from "./edges.json";
 import { useSearchParamsStateNumber, useWindowSize } from "./hooks";
 import nodesFromFile from "./nodes.json";
-import { relatedAndSelf } from "./search";
+import { travel } from "./search";
 const graphData = {
   nodes: nodesFromFile,
   links: edges,
@@ -75,7 +75,8 @@ function App() {
     if (subjectId === 0) {
       return graphData;
     }
-    const nodes = relatedAndSelf(subjectId, edges);
+    const nodes = travel(subjectId, edges, "both");
+    console.log({ nodes });
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)

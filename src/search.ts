@@ -3,12 +3,12 @@
  * * `"ancestors"`: all vertices that lead to `id`.
  * * `"descendants"`: all vertices that follow from `id`.
  * * `"tree"`: union of `"ancestors"`, `"descendants"` and `id`.
-*/
+ */
 export type Traversal = "web" | "ancestors" | "descendants" | "tree";
 
 /** Traverse the graph `edges` starting from `id`, with
  * `mode` determining the returned vertex cover.
-*/
+ */
 export function traverse(
   id: number,
   edges: DirectedEdge[],
@@ -22,7 +22,7 @@ export function traverse(
     ]);
   }
 
-  const visited = new Set<number>([ id ]);
+  const visited = new Set<number>([id]);
 
   let running = true;
   while (running) {
@@ -35,9 +35,9 @@ export function traverse(
     for (const edge of edges) {
       // If the current edge points to an already visited vertex
       if (
-        (mode == "ancestors" || mode == "web")
-        && !visited.has(edge.source)
-        && visited.has(edge.target)
+        (mode == "ancestors" || mode == "web") &&
+        !visited.has(edge.source) &&
+        visited.has(edge.target)
       ) {
         // Add the edge's origin vertex
         visited.add(edge.source);
@@ -46,9 +46,9 @@ export function traverse(
       }
       // If the current edge leads from an already visited vertex
       if (
-        (mode == "descendants" || mode == "web")
-        && !visited.has(edge.target)
-        && visited.has(edge.source)
+        (mode == "descendants" || mode == "web") &&
+        !visited.has(edge.target) &&
+        visited.has(edge.source)
       ) {
         // Add the edge's target vertex
         visited.add(edge.target);
@@ -302,23 +302,29 @@ export function isolatedNodes(edges: DirectedEdge[]): number[] {
 export function travel(
   id: number,
   edges: DirectedEdge[],
-  direction: "up" | "down"
+  direction: "up" | "down" | "both"
 ): number[] {
-  const parentsOfId = parents(id, edges);
-  const childrenOfId = children(id, edges);
-  if (direction === "up") {
-    return uniqueNumbers(
-      parentsOfId.concat(
-        parentsOfId.flatMap((parent) => travel(parent, edges, direction))
-      )
-    );
-  } else {
-    return uniqueNumbers(
-      childrenOfId.concat(
-        childrenOfId.flatMap((child) => travel(child, edges, direction))
-      )
-    );
+  const queue = [id];
+  const travelledArray = new Set<number>();
+  while (queue.length > 0) {
+    const currentId = queue.shift()!;
+    travelledArray.add(currentId);
+    if (direction === "up" || direction === "both") {
+      parents(currentId, edges).forEach((parentId) => {
+        if (!travelledArray.has(parentId)) {
+          queue.push(parentId);
+        }
+      });
+    }
+    if (direction === "down" || direction === "both") {
+      children(currentId, edges).forEach((childId) => {
+        if (!travelledArray.has(childId)) {
+          queue.push(childId);
+        }
+      });
+    }
   }
+  return Array.from(travelledArray);
 }
 
 /**
