@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
 import edges from "./edges.json";
+import { useWindowSize } from "./hooks";
 import nodesFromFile from "./nodes.json";
 import { dfs, maze } from "./search";
 const graphData = {
@@ -28,7 +29,6 @@ interface Link {
 // maze();
 
 function App() {
-  const [width, setWidth] = useState(0);
   const datRef = useRef<dat.GUI | null>(null);
   const [renderSubjectId, setRenderSubjectId] = useState(48024);
   const [renderDepth, setRenderDepth] = useState(2);
@@ -37,10 +37,7 @@ function App() {
   const [bidirectionalRender, setBidirectional] = useState(false);
   const [dfsEnabled, setDfsEnabled] = useState(false);
   const [mazeEnabled, setMazeEnabled] = useState(false);
-
-  useEffect(() => {
-    if (window) setWidth(window.innerWidth);
-  }, []);
+  const { height, width } = useWindowSize();
 
   useEffect(() => {
     datRef.current = new dat.GUI();
@@ -115,7 +112,7 @@ function App() {
     );
     console.log("depth run");
     return { nodes: populatedNodes, links };
-  }, [graphData, renderSubjectId, renderDepth, bidirectionalRender]);
+  }, [renderSubjectId, renderDepth, bidirectionalRender]);
 
   const getMaze = useCallback(() => {
     const nodes = maze(renderMazeStart, renderMazeEnd, bidirectionalRender);
@@ -126,7 +123,7 @@ function App() {
     );
     console.log("maze run");
     return { nodes: populatedNodes, links };
-  }, [renderMazeStart, renderMazeEnd, bidirectionalRender, graphData]);
+  }, [renderMazeStart, renderMazeEnd, bidirectionalRender]);
 
   const graphFiltered = useMemo(() => {
     if (dfsEnabled) {
