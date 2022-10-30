@@ -76,7 +76,6 @@ function App() {
       return graphData;
     }
     const nodes = relatedAndSelf(subjectId, edges);
-    console.log(nodes);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
@@ -97,6 +96,7 @@ function App() {
       linkDirectionalArrowLength={3.5}
       linkDirectionalArrowRelPos={1}
       linkCurvature={0.25}
+      showNavInfo={false}
       // @ts-ignore
       nodeLabel={(node) => node.label ?? node.id}
       nodeAutoColorBy="course"
