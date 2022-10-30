@@ -1,20 +1,14 @@
 import dat from "dat.gui";
-import { useCallback, useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
-import edges from "./edges.json";
+import graphData from "./data.json";
 import {
   useSearchParamsStateBoolean,
   useSearchParamsStateNumber,
   useWindowSize,
 } from "./hooks";
-import nodesFromFile from "./nodes.json";
 import { relatedAndSelf } from "./search";
-const graphData = {
-  nodes: nodesFromFile,
-  links: edges,
-};
-
 const parseId = (input: number | { id: number }) =>
   typeof input === "number" ? input : input.id;
 
@@ -85,25 +79,24 @@ function App() {
     return populatedLinks;
   };
 
-  const getData = useCallback(() => {
+  const getData = () => {
     if (subjectId === 0) {
       return graphData;
     }
-    const nodes = relatedAndSelf(subjectId, edges);
+    const nodes = relatedAndSelf(subjectId, graphData.links);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
     );
     return { nodes: populatedNodes, links };
-  }, [subjectId, edges]);
+  };
 
   const graphFiltered = useMemo(() => {
     return getData();
-  }, [subjectId, getData]);
+  }, [subjectId, graphData]);
 
   return (
     <ForceGraph3D
-      // ref={forceGraphRef}
       graphData={graphFiltered}
       width={width}
       height={height}
