@@ -110,7 +110,6 @@ function App() {
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
     );
-    console.log("depth run");
     return { nodes: populatedNodes, links };
   }, [renderSubjectId, renderDepth, bidirectionalRender]);
 
@@ -121,7 +120,6 @@ function App() {
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
     );
-    console.log("maze run");
     return { nodes: populatedNodes, links };
   }, [renderMazeStart, renderMazeEnd, bidirectionalRender]);
 
@@ -143,22 +141,6 @@ function App() {
     renderMazeEnd,
     bidirectionalRender,
   ]);
-  // 41086, 23004
-  useEffect(() => {
-    console.log({ dfsEnabled });
-  }, [dfsEnabled]);
-
-  useEffect(() => {
-    console.log({ mazeEnabled });
-  }, [mazeEnabled]);
-
-  useEffect(() => {
-    console.log({ bidirectionalRender });
-  }, [bidirectionalRender]);
-
-  useEffect(() => {
-    console.log({ graphFiltered });
-  }, [graphFiltered]);
 
   return (
     <>
