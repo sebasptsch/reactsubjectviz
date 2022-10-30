@@ -107,6 +107,7 @@ function App() {
             : node.id?.toString()
         );
         sprite.textHeight = 8;
+        sprite.fontWeight = "bold";
         // @ts-ignore
         sprite.color = node.color;
         sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
