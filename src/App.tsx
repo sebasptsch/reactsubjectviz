@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useRef } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
 import edges from "./edges.json";
-import { useSearchParamsState, useWindowSize } from "./hooks";
+import { useSearchParamsStateNumber, useWindowSize } from "./hooks";
 import nodesFromFile from "./nodes.json";
 import { relatedAndSelf } from "./search";
 const graphData = {
@@ -31,7 +31,10 @@ interface Link {
 function App() {
   const datRef = useRef<dat.GUI | null>(null);
   const { height, width } = useWindowSize();
-  const [subjectId, setSubjectId] = useSearchParamsState("subjectId", "48024");
+  const [subjectId, setSubjectId] = useSearchParamsStateNumber(
+    "subjectId",
+    48024
+  );
 
   useEffect(() => {
     datRef.current = new dat.GUI();
@@ -69,7 +72,7 @@ function App() {
   };
 
   const getRelated = useCallback(() => {
-    const nodes = relatedAndSelf(parseInt(subjectId), edges);
+    const nodes = relatedAndSelf(subjectId, edges);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)

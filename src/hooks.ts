@@ -93,3 +93,88 @@ export function useSearchParamsState(
   };
   return [searchParamsState, setSearchParamsState];
 }
+
+export function useSearchParamsStateBoolean(
+  searchParamName: string,
+  defaultValue: boolean
+): readonly [
+  searchParamsState: boolean,
+  setSearchParamsState: (newState: boolean) => void
+] {
+  const [searchParamsState, setSearchParamsState] = useSearchParamsState(
+    searchParamName,
+    defaultValue.toString()
+  );
+  return [
+    searchParamsState === "true",
+    (newState) => setSearchParamsState(newState.toString()),
+  ];
+}
+
+export function useSearchParamsStateNumber(
+  searchParamName: string,
+  defaultValue: number
+): readonly [
+  searchParamsState: number,
+  setSearchParamsState: (newState: number) => void
+] {
+  const [searchParamsState, setSearchParamsState] = useSearchParamsState(
+    searchParamName,
+    defaultValue.toString()
+  );
+  return [
+    parseInt(searchParamsState),
+    (newState) => setSearchParamsState(newState.toString()),
+  ];
+}
+
+export function useSearchParamsStateArray(
+  searchParamName: string,
+  defaultValue: string[]
+): readonly [
+  searchParamsState: string[],
+  setSearchParamsState: (newState: string[]) => void
+] {
+  const [searchParamsState, setSearchParamsState] = useSearchParamsState(
+    searchParamName,
+    defaultValue.join(",")
+  );
+  return [
+    searchParamsState.split(","),
+    (newState) => setSearchParamsState(newState.join(",")),
+  ];
+}
+
+export function useSearchParamsStateArrayNumber(
+  searchParamName: string,
+  defaultValue: number[]
+): readonly [
+  searchParamsState: number[],
+  setSearchParamsState: (newState: number[]) => void
+] {
+  const [searchParamsState, setSearchParamsState] = useSearchParamsState(
+    searchParamName,
+    defaultValue.join(",")
+  );
+  return [
+    searchParamsState.split(",").map((x) => parseInt(x)),
+    (newState) => setSearchParamsState(newState.join(",")),
+  ];
+}
+
+export function useSearchParamsStateArrayBoolean(
+  searchParamName: string,
+  defaultValue: boolean[]
+): readonly [
+  searchParamsState: boolean[],
+  setSearchParamsState: (newState: boolean[]) => void
+] {
+  const [searchParamsState, setSearchParamsState] = useSearchParamsState(
+    searchParamName,
+    defaultValue.join(",")
+  );
+  return [
+    searchParamsState.split(",").map((x) => x === "true"),
+    (newState) => setSearchParamsState(newState.join(",")),
+  ];
+}
