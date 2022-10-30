@@ -46,11 +46,19 @@ export function parents(id: number, edges: DirectedEdge[]): number[] {
  */
 export function ancestors(id: number, edges: DirectedEdge[]): number[] {
   const parentsOfId = parents(id, edges);
-  return uniqueNumbers(
-    parentsOfId.concat(
-      parentsOfId.flatMap((parent) => ancestors(parent, edges))
-    )
-  );
+  const queue = [...parentsOfId];
+  const ancestorsArray = new Set<number>();
+  while (queue.length > 0) {
+    const nextId = queue.pop()!;
+    ancestorsArray.add(nextId);
+    const parentsOfNextId = parents(nextId, edges);
+    parentsOfNextId.forEach((parentId) => {
+      if (!ancestorsArray.has(parentId)) {
+        queue.push(parentId);
+      }
+    });
+  }
+  return Array.from(ancestorsArray);
 }
 
 /**
@@ -73,11 +81,19 @@ export function children(id: number, edges: DirectedEdge[]): number[] {
  */
 export function descendants(id: number, edges: DirectedEdge[]): number[] {
   const childrenOfId = children(id, edges);
-  return uniqueNumbers(
-    childrenOfId.concat(
-      childrenOfId.flatMap((child) => descendants(child, edges))
-    )
-  );
+  const queue = [...childrenOfId];
+  const descendantsArray = new Set<number>();
+  while (queue.length > 0) {
+    const nextId = queue.pop()!;
+    descendantsArray.add(nextId);
+    const childrenOfNextId = children(nextId, edges);
+    childrenOfNextId.forEach((childId) => {
+      if (!descendantsArray.has(childId)) {
+        queue.push(childId);
+      }
+    });
+  }
+  return Array.from(descendantsArray);
 }
 
 /**

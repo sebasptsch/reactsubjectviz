@@ -76,6 +76,7 @@ function App() {
       return graphData;
     }
     const nodes = relatedAndSelf(subjectId, edges);
+    console.log(nodes);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
