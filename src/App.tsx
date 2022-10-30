@@ -191,6 +191,7 @@ function App() {
         // ref={forceGraphRef}
         graphData={graphFiltered}
         width={width}
+        height={height}
         linkDirectionalArrowLength={3.5}
         linkDirectionalArrowRelPos={1}
         linkCurvature={0.25}
@@ -213,6 +214,10 @@ function App() {
           sprite.color = node.color;
           sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
           return sprite;
+        }}
+        onNodeClick={(node) => {
+          // @ts-ignore
+          window.open(node.url);
         }}
       />
     </>
