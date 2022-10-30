@@ -35,3 +35,61 @@ export function useWindowSize() {
 
   return windowSize;
 }
+
+export function useQueryParams() {
+  const [queryParams, setQueryParams] = useState(
+    new URLSearchParams(window.location.search)
+  );
+
+  useEffect(() => {
+    const handleQueryParams = () => {
+      setQueryParams(new URLSearchParams(window.location.search));
+    };
+
+    window.addEventListener("popstate", handleQueryParams);
+
+    return () => window.removeEventListener("popstate", handleQueryParams);
+  }, []);
+
+  const setSearchParams = (params: Record<string, string>) => {
+    const newParams = new URLSearchParams(window.location.search);
+    Object.entries(params).forEach(([key, value]) => {
+      newParams.set(key, value);
+    });
+    window.history.pushState(
+      {},
+      "",
+      `${window.location.pathname}?${newParams.toString()}`
+    );
+  };
+
+  return { queryParams, setSearchParams };
+}
+
+import { useSearchParams } from "react-router-dom";
+
+export function useSearchParamsState(
+  searchParamName: string,
+  defaultValue: string
+): readonly [
+  searchParamsState: string,
+  setSearchParamsState: (newState: string) => void
+] {
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const acquiredSearchParam = searchParams.get(searchParamName);
+  const searchParamsState = acquiredSearchParam ?? defaultValue;
+
+  const setSearchParamsState = (newState: string) => {
+    const next = Object.assign(
+      {},
+      [...searchParams.entries()].reduce(
+        (o, [key, value]) => ({ ...o, [key]: value }),
+        {}
+      ),
+      { [searchParamName]: newState }
+    );
+    setSearchParams(next);
+  };
+  return [searchParamsState, setSearchParamsState];
+}

@@ -1,9 +1,9 @@
 import dat from "dat.gui";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
 import edges from "./edges.json";
-import { useWindowSize } from "./hooks";
+import { useSearchParamsState, useWindowSize } from "./hooks";
 import nodesFromFile from "./nodes.json";
 import { relatedAndSelf } from "./search";
 const graphData = {
@@ -30,20 +30,20 @@ interface Link {
 
 function App() {
   const datRef = useRef<dat.GUI | null>(null);
-  const [renderSubjectId, setRenderSubjectId] = useState(48024);
   const { height, width } = useWindowSize();
+  const [subjectId, setSubjectId] = useSearchParamsState("subjectId", "48024");
 
   useEffect(() => {
     datRef.current = new dat.GUI();
     const gui = datRef.current;
     var params = {
-      subjectId: 48024,
+      subjectId,
     };
 
     gui
       .add(params, "subjectId", 0, 100000, 1)
       .name("Subject ID")
-      .onFinishChange(setRenderSubjectId);
+      .onFinishChange(setSubjectId);
 
     return () => {
       gui.destroy();
@@ -69,17 +69,17 @@ function App() {
   };
 
   const getRelated = useCallback(() => {
-    const nodes = relatedAndSelf(renderSubjectId, edges);
+    const nodes = relatedAndSelf(parseInt(subjectId), edges);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
     );
     return { nodes: populatedNodes, links };
-  }, [renderSubjectId, edges]);
+  }, [subjectId, edges]);
 
   const graphFiltered = useMemo(() => {
     return getRelated();
-  }, [renderSubjectId, getRelated]);
+  }, [subjectId, getRelated]);
 
   return (
     <ForceGraph3D
