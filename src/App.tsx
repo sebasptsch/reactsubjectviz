@@ -114,8 +114,7 @@ function App() {
       // @ts-ignore
       nodeLabel={(node) => node.label ?? node.id}
       nodeAutoColorBy="course"
-      enableNodeDrag={true}
-      linkDirectionalParticles={3}
+      enableNodeDrag={false}
       nodeThreeObject={
         circleMode
           ? undefined
