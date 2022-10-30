@@ -100,7 +100,7 @@ function App() {
       // @ts-ignore
       nodeLabel={(node) => node.label ?? node.id}
       nodeAutoColorBy="course"
-      enableNodeDrag={false}
+      enableNodeDrag={true}
       linkDirectionalParticles={3}
       nodeThreeObject={(node) => {
         if (node.id === subjectId) {
