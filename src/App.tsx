@@ -103,6 +103,12 @@ function App() {
       enableNodeDrag={false}
       linkDirectionalParticles={1}
       nodeThreeObject={(node) => {
+        if (node.id === subjectId) {
+          node.fx = 0;
+          node.fy = 0;
+          node.fz = 0;
+        }
+
         const sprite = new SpriteText(
           // @ts-ignore
           node.label
