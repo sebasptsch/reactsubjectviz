@@ -40,6 +40,17 @@ export function descendants(id: number, edges: DirectedEdge[]): number[] {
   );
 }
 
+export function descendantsAndSelf(
+  id: number,
+  edges: DirectedEdge[]
+): number[] {
+  return [id].concat(descendants(id, edges));
+}
+
+export function parentsAndSelf(id: number, edges: DirectedEdge[]): number[] {
+  return [id].concat(parents(id, edges));
+}
+
 export function siblings(id: number, edges: DirectedEdge[]): number[] {
   const parentsOfId = parents(id, edges);
   return parentsOfId
