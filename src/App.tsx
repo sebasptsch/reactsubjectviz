@@ -71,7 +71,10 @@ function App() {
     return populatedLinks;
   };
 
-  const getRelated = useCallback(() => {
+  const getData = useCallback(() => {
+    if (subjectId === 0) {
+      return graphData;
+    }
     const nodes = relatedAndSelf(subjectId, edges);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
@@ -81,8 +84,8 @@ function App() {
   }, [subjectId, edges]);
 
   const graphFiltered = useMemo(() => {
-    return getRelated();
-  }, [subjectId, getRelated]);
+    return getData();
+  }, [subjectId, getData]);
 
   return (
     <ForceGraph3D
