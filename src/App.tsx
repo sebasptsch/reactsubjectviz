@@ -66,7 +66,7 @@ function App() {
       .onFinishChange(setRenderSubjectId);
 
     dfsFolder
-      .add(params, "depth", 0, 10, 1)
+      .add(params, "depth", 0, 100, 1)
       .name("Depth")
       .onFinishChange(setRenderDepth);
 
