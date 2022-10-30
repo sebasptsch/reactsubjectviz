@@ -116,9 +116,14 @@ function App() {
         sprite.backgroundColor = "rgba(0, 0, 0, 0.5)";
         return sprite;
       }}
-      onNodeClick={(node) => {
-        // @ts-ignore
-        window.open(node.url);
+      onNodeClick={(node, e) => {
+        if (e.ctrlKey) {
+          // @ts-ignore
+          setSubjectId(node.id);
+        } else {
+          // @ts-ignore
+          window.open(node.url, "_blank");
+        }
       }}
     />
   );
