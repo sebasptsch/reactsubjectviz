@@ -119,6 +119,7 @@ function App() {
     },
     [
       querySubjectId,
+      queryEndSubjectId,
       queryShowLabels,
       queryUndirected,
       queryShowAncestors,
@@ -183,7 +184,14 @@ function App() {
       nodes.includes(node.id)
     );
     return { nodes: populatedNodes, links };
-  }, [undirectedGraph, showDescendants, showAncestors, showSelf, subjectId]);
+  }, [
+    undirectedGraph,
+    showDescendants,
+    showAncestors,
+    showSelf,
+    subjectId,
+    endSubjectId,
+  ]);
 
   const data = useMemo(getData, [
     getData,
@@ -192,6 +200,7 @@ function App() {
     showAncestors,
     showSelf,
     subjectId,
+    endSubjectId,
   ]);
 
   return (
