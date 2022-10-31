@@ -349,3 +349,24 @@ export function dijkstraShortestPath(
   }
   return [];
 }
+
+export function postman(edges: DirectedEdge[]): number[][] {
+  const oddNodes = everything(edges).filter(
+    (id) => related(id, edges).length % 2 === 1
+  );
+  const oddPairs = oddNodes.flatMap((id) => {
+    return oddNodes
+      .filter((otherId) => otherId !== id)
+      .map((otherId) => [id, otherId]);
+  });
+  const paths = oddPairs.map(([source, target]) => {
+    return dijkstraShortestPath(source, target, edges);
+  });
+  return paths;
+}
+
+export function postmanTour(edges: DirectedEdge[]): number[] {
+  const paths = postman(edges);
+  const tour = paths.flat();
+  return uniqueNumbers(tour);
+}
