@@ -397,3 +397,11 @@ export function hasCycle(edges: DirectedEdge[]): boolean {
   }
   return false;
 }
+
+// return all relations as if undirected
+export function undirected(edges: DirectedEdge[]): DirectedEdge[] {
+  return edges.flatMap((edge) => [
+    edge,
+    { source: edge.target, target: edge.source },
+  ]);
+}
