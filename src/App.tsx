@@ -39,7 +39,7 @@ function App() {
   );
   const [queryEndSubjectId, setQueryEndSubjectId] = useSearchParamsStateNumber(
     "endSubjectId",
-    48024
+    0
   );
   const [queryShowLabels, setQueryShowLabels] = useSearchParamsStateBoolean(
     "showLabels",
