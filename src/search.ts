@@ -3,12 +3,12 @@
  * * `"ancestors"`: all vertices that lead to `id`.
  * * `"descendants"`: all vertices that follow from `id`.
  * * `"tree"`: union of `"ancestors"`, `"descendants"` and `id`.
-*/
+ */
 export type Traversal = "web" | "ancestors" | "descendants" | "tree";
 
 /** Traverse the graph `edges` starting from `id`, with
  * `mode` determining the returned vertex cover.
-*/
+ */
 export function traverse(
   id: number,
   edges: DirectedEdge[],
@@ -22,7 +22,7 @@ export function traverse(
     ]);
   }
 
-  const visited = new Set<number>([ id ]);
+  const visited = new Set<number>([id]);
 
   let running = true;
   while (running) {
@@ -35,9 +35,9 @@ export function traverse(
     for (const edge of edges) {
       // If the current edge points to an already visited vertex
       if (
-        (mode == "ancestors" || mode == "web")
-        && !visited.has(edge.source)
-        && visited.has(edge.target)
+        (mode == "ancestors" || mode == "web") &&
+        !visited.has(edge.source) &&
+        visited.has(edge.target)
       ) {
         // Add the edge's origin vertex
         visited.add(edge.source);
@@ -46,9 +46,9 @@ export function traverse(
       }
       // If the current edge leads from an already visited vertex
       if (
-        (mode == "descendants" || mode == "web")
-        && !visited.has(edge.target)
-        && visited.has(edge.source)
+        (mode == "descendants" || mode == "web") &&
+        !visited.has(edge.target) &&
+        visited.has(edge.source)
       ) {
         // Add the edge's target vertex
         visited.add(edge.target);
@@ -293,45 +293,58 @@ export function isolatedNodes(edges: DirectedEdge[]): number[] {
 }
 
 /**
- * Returns the travelled nodes in the graph.
- * @param id The id of the node to find the relatives of.
- * @param edges The edges in the graph.
- * @param direction The direction of the relatives to find.
- * @returns The ids of the relatives of the node.
+ * Basic implementation of a priority queue.
  */
-export function travel(
-  id: number,
-  edges: DirectedEdge[],
-  direction: "up" | "down"
-): number[] {
-  const parentsOfId = parents(id, edges);
-  const childrenOfId = children(id, edges);
-  if (direction === "up") {
-    return uniqueNumbers(
-      parentsOfId.concat(
-        parentsOfId.flatMap((parent) => travel(parent, edges, direction))
-      )
-    );
-  } else {
-    return uniqueNumbers(
-      childrenOfId.concat(
-        childrenOfId.flatMap((child) => travel(child, edges, direction))
-      )
-    );
+export class PriorityQueue<T> {
+  private readonly _queue: T[] = [];
+  private readonly _comparator: (a: T, b: T) => number;
+
+  constructor(comparator: (a: T, b: T) => number) {
+    this._comparator = comparator;
+  }
+
+  public enqueue(element: T): void {
+    this._queue.push(element);
+    this._queue.sort(this._comparator);
+  }
+
+  public dequeue(): T | undefined {
+    return this._queue.shift();
+  }
+
+  public get length(): number {
+    return this._queue.length;
   }
 }
 
 /**
- * Returns the travelled nodes in the graph along with the node itself.
- * @param id The id of the node to find the relatives of.
+ * Returns the shortest path between two nodes in the graph.
+ * @param source The id of the source node.
+ * @param target The id of the target node.
  * @param edges The edges in the graph.
- * @param direction The direction of the relatives to find.
- * @returns The ids of the relatives of the node and the id of the node.
+ * @returns The shortest path between the source and target nodes.
  */
-export function travelAndSelf(
-  id: number,
-  edges: DirectedEdge[],
-  direction: "up" | "down"
+export function dijkstraShortestPath(
+  source: number,
+  target: number,
+  edges: DirectedEdge[]
 ): number[] {
-  return uniqueNumbers(travel(id, edges, direction).concat(id));
+  const queue = new PriorityQueue<[number, number[]]>((a, b) => a[0] - b[0]);
+  const visited = new Set<number>();
+  queue.enqueue([0, [source]]);
+  while (queue.length > 0) {
+    const [distance, path] = queue.dequeue()!;
+    const current = path[path.length - 1];
+    if (current === target) {
+      return path;
+    }
+    if (visited.has(current)) {
+      continue;
+    }
+    visited.add(current);
+    children(current, edges).forEach((child) => {
+      queue.enqueue([distance + 1, path.concat(child)]);
+    });
+  }
+  return [];
 }
