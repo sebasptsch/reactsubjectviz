@@ -1,5 +1,5 @@
-import dat from "dat.gui";
-import { useEffect, useMemo, useRef } from "react";
+import { useControls } from "leva";
+import { useCallback, useMemo } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
 import graphData from "./data.json";
@@ -8,7 +8,7 @@ import {
   useSearchParamsStateNumber,
   useWindowSize,
 } from "./hooks";
-import { relatedAndSelf } from "./search";
+import { ancestors, descendants, undirected } from "./search";
 const parseId = (input: number | { id: number }) =>
   typeof input === "number" ? input : input.id;
 
@@ -27,40 +27,88 @@ interface Link {
 // maze();
 
 function App() {
-  const datRef = useRef<dat.GUI | null>(null);
   const { height, width } = useWindowSize();
-  const [subjectId, setSubjectId] = useSearchParamsStateNumber(
+  const [querySubjectId, setQuerySubjectId] = useSearchParamsStateNumber(
     "subjectId",
     48024
   );
-  const [circleMode, setCircleMode] = useSearchParamsStateBoolean(
-    "circleMode",
+  const [queryShowLabels, setQueryShowLabels] = useSearchParamsStateBoolean(
+    "showLabels",
+    true
+  );
+  const [queryUndirected, setQueryUndirected] = useSearchParamsStateBoolean(
+    "undirected",
     false
   );
+  const [queryShowAncestors, setQueryShowAncestors] =
+    useSearchParamsStateBoolean("showAncestors", true);
+  const [queryShowDescendants, setQueryShowDescendants] =
+    useSearchParamsStateBoolean("showDescendants", true);
+  const [queryShowSelf, setQueryShowSelf] = useSearchParamsStateBoolean(
+    "showSelf",
+    true
+  );
+  // const [circleMode, setCircleMode] = useSearchParamsStateBoolean(
+  //   "circleMode",
+  //   false
+  // );
 
-  useEffect(() => {
-    datRef.current = new dat.GUI();
-    const gui = datRef.current;
-    var params = {
-      subjectId,
-      circleMode,
-    };
-
-    gui
-      .add(params, "subjectId", 0, 100000, 1)
-      .name("Subject ID")
-      .onFinishChange(setSubjectId);
-
-    gui
-      .add(params, "circleMode")
-      .name("Circle Mode")
-      .onFinishChange(setCircleMode);
-
-    return () => {
-      gui.destroy();
-      datRef.current = null;
-    };
-  }, []);
+  const {
+    subjectId,
+    showLabels,
+    undirected: undirectedGraph,
+    descendants: showDescendants,
+    ancestors: showAncestors,
+    self: showSelf,
+  } = useControls(
+    {
+      subjectId: {
+        step: 1,
+        value: querySubjectId,
+        onChange: setQuerySubjectId,
+        label: "Subject ID",
+        transient: false,
+      },
+      showLabels: {
+        value: queryShowLabels,
+        onChange: setQueryShowLabels,
+        label: "Show Labels",
+        transient: false,
+      },
+      undirected: {
+        value: queryUndirected,
+        onChange: setQueryUndirected,
+        label: "Undirected",
+        transient: false,
+      },
+      descendants: {
+        value: queryShowDescendants,
+        onChange: setQueryShowDescendants,
+        label: "Show Descendants",
+        transient: false,
+      },
+      ancestors: {
+        value: queryShowAncestors,
+        onChange: setQueryShowAncestors,
+        label: "Show Ancestors",
+        transient: false,
+      },
+      self: {
+        value: queryShowSelf,
+        onChange: setQueryShowSelf,
+        label: "Show Self",
+        transient: false,
+      },
+    },
+    [
+      querySubjectId,
+      queryShowLabels,
+      queryUndirected,
+      queryShowAncestors,
+      queryShowDescendants,
+      queryShowSelf,
+    ]
+  );
 
   // give edges connecting to the given populated nodes
   const edgesFromNodes = (nodes: number[]) => {
@@ -79,25 +127,53 @@ function App() {
     return populatedLinks;
   };
 
-  const getData = () => {
+  const getData = useCallback(() => {
     if (subjectId === 0) {
       return graphData;
     }
-    const nodes = relatedAndSelf(subjectId, graphData.links);
+
+    let nodes: number[] = [];
+
+    let initialEdges: { source: number; target: number }[] = [];
+
+    if (undirectedGraph) {
+      initialEdges = undirected(graphData.links);
+    } else {
+      initialEdges = graphData.links;
+    }
+
+    if (showDescendants) {
+      nodes.push(...descendants(subjectId, initialEdges));
+    }
+
+    if (showAncestors) {
+      nodes.push(...ancestors(subjectId, initialEdges));
+    }
+
+    if (showSelf) {
+      nodes.push(subjectId);
+    }
+
+    // const nodes = relatedAndSelf(subjectId, graphData.links);
     const links = edgesFromNodes(nodes);
     const populatedNodes = graphData.nodes.filter((node) =>
       nodes.includes(node.id)
     );
     return { nodes: populatedNodes, links };
-  };
+  }, [undirectedGraph, showDescendants, showAncestors, showSelf, subjectId]);
 
-  const graphFiltered = useMemo(() => {
-    return getData();
-  }, [subjectId, graphData]);
+  const data = useMemo(getData, [
+    getData,
+    undirectedGraph,
+    showDescendants,
+    showAncestors,
+    showSelf,
+    subjectId,
+  ]);
 
   return (
     <ForceGraph3D
-      graphData={graphFiltered}
+      graphData={data}
       width={width}
       height={height}
       linkDirectionalArrowLength={3.5}
@@ -109,7 +185,7 @@ function App() {
       nodeAutoColorBy="course"
       enableNodeDrag={false}
       nodeThreeObject={
-        circleMode
+        !showLabels
           ? undefined
           : (node) => {
               if (node.id === subjectId) {
