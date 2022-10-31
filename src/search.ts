@@ -306,6 +306,7 @@ export class PriorityQueue<T> {
   public enqueue(element: T): void {
     this._queue.push(element);
     this._queue.sort(this._comparator);
+    console.log("Queue", this._queue);
   }
 
   public dequeue(): T | undefined {
