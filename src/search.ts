@@ -350,6 +350,11 @@ export function dijkstraShortestPath(
   return [];
 }
 
+/**
+ * Returns the postman algorithm for the graph.
+ * @param edges The edges in the graph.
+ * @returns The postman of the graph as matrix.
+ */
 export function postman(edges: DirectedEdge[]): number[][] {
   const oddNodes = everything(edges).filter(
     (id) => related(id, edges).length % 2 === 1
@@ -365,12 +370,22 @@ export function postman(edges: DirectedEdge[]): number[][] {
   return paths;
 }
 
+/**
+ * Returns the postman tour of the graph.
+ * @param edges The edges in the graph.
+ * @returns The postman tour of the graph.
+ */
 export function postmanTour(edges: DirectedEdge[]): number[] {
   const paths = postman(edges);
   const tour = paths.flat();
   return uniqueNumbers(tour);
 }
 
+/**
+ * Returns if the graph has a cycle.
+ * @param edges The edges in the graph.
+ * @returns If the graph has a cycle.
+ */
 export function hasCycle(edges: DirectedEdge[]): boolean {
   const nodes = everything(edges);
   const visited = new Set<number>();
@@ -398,7 +413,11 @@ export function hasCycle(edges: DirectedEdge[]): boolean {
   return false;
 }
 
-// return all relations as if undirected
+/**
+ * Returns the nodes of the graph as if it were undirected.
+ * @param edges The edges in the graph.
+ * @returns The nodes of the graph as if it were undirected.
+ */
 export function undirected(edges: DirectedEdge[]): DirectedEdge[] {
   return edges.flatMap((edge) => [
     edge,
