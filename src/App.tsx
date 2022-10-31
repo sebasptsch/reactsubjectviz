@@ -8,7 +8,12 @@ import {
   useSearchParamsStateNumber,
   useWindowSize,
 } from "./hooks";
-import { ancestors, descendants, undirected } from "./search";
+import {
+  ancestors,
+  descendants,
+  dijkstraShortestPath,
+  undirected,
+} from "./search";
 const parseId = (input: number | { id: number }) =>
   typeof input === "number" ? input : input.id;
 
@@ -30,6 +35,10 @@ function App() {
   const { height, width } = useWindowSize();
   const [querySubjectId, setQuerySubjectId] = useSearchParamsStateNumber(
     "subjectId",
+    48024
+  );
+  const [queryEndSubjectId, setQueryEndSubjectId] = useSearchParamsStateNumber(
+    "endSubjectId",
     48024
   );
   const [queryShowLabels, setQueryShowLabels] = useSearchParamsStateBoolean(
@@ -55,6 +64,7 @@ function App() {
 
   const {
     subjectId,
+    endSubjectId,
     showLabels,
     undirected: undirectedGraph,
     descendants: showDescendants,
@@ -67,6 +77,13 @@ function App() {
         value: querySubjectId,
         onChange: setQuerySubjectId,
         label: "Subject ID",
+        transient: false,
+      },
+      endSubjectId: {
+        step: 1,
+        value: queryEndSubjectId,
+        onChange: setQueryEndSubjectId,
+        label: "End Subject ID",
         transient: false,
       },
       showLabels: {
@@ -142,16 +159,22 @@ function App() {
       initialEdges = graphData.links;
     }
 
-    if (showDescendants) {
-      nodes.push(...descendants(subjectId, initialEdges));
-    }
+    if (endSubjectId === 0) {
+      nodes.push(
+        ...dijkstraShortestPath(subjectId, endSubjectId, initialEdges)
+      );
+    } else {
+      if (showDescendants) {
+        nodes.push(...descendants(subjectId, initialEdges));
+      }
 
-    if (showAncestors) {
-      nodes.push(...ancestors(subjectId, initialEdges));
-    }
+      if (showAncestors) {
+        nodes.push(...ancestors(subjectId, initialEdges));
+      }
 
-    if (showSelf) {
-      nodes.push(subjectId);
+      if (showSelf) {
+        nodes.push(subjectId);
+      }
     }
 
     // const nodes = relatedAndSelf(subjectId, graphData.links);
