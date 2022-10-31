@@ -12,6 +12,7 @@
     "@types/three": "^0.144.0",
     "dat.gui": "^0.7.9",
     "leva": "^0.9.34",
+    "make-asynchronous": "^0.3.0",
     "react": "^18.2.0",
     "react-dat-gui": "^4.1.1",
     "react-dom": "^18.2.0",

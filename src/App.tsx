@@ -2,6 +2,7 @@ import { useControls } from "leva";
 import { useCallback, useMemo } from "react";
 import { ForceGraph3D } from "react-force-graph";
 import SpriteText from "three-spritetext";
+import { asyncDijkstraShortestPath } from "./asyncSearch";
 import graphData from "./data.json";
 import {
   useSearchParamsStateBoolean,
@@ -151,7 +152,6 @@ function App() {
     }
 
     let nodes: number[] = [];
-
     let initialEdges: { source: number; target: number }[] = [];
 
     if (undirectedGraph) {
@@ -163,6 +163,12 @@ function App() {
     if (endSubjectId !== 0) {
       nodes.push(
         ...dijkstraShortestPath(subjectId, endSubjectId, initialEdges)
+      );
+
+      asyncDijkstraShortestPath(subjectId, endSubjectId, initialEdges).then(
+        (path) => {
+          console.log(path);
+        }
       );
     } else {
       if (showDescendants) {

@@ -1,3 +1,5 @@
+import makeAsynchronous from "make-asynchronous";
+
 /** A strategy to traverse a directed graph.
  * * `"web"`: a connected graph of all reachable vertices from `id`.
  * * `"ancestors"`: all vertices that lead to `id`.
