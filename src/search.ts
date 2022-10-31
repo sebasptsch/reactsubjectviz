@@ -370,3 +370,30 @@ export function postmanTour(edges: DirectedEdge[]): number[] {
   const tour = paths.flat();
   return uniqueNumbers(tour);
 }
+
+export function hasCycle(edges: DirectedEdge[]): boolean {
+  const nodes = everything(edges);
+  const visited = new Set<number>();
+  const stack = new Set<number>();
+  for (const node of nodes) {
+    if (visited.has(node)) {
+      continue;
+    }
+    stack.add(node);
+    while (stack.size > 0) {
+      const current = stack.values().next().value;
+      stack.delete(current);
+      visited.add(current);
+      const children = related(current, edges);
+      for (const child of children) {
+        if (stack.has(child)) {
+          return true;
+        }
+        if (!visited.has(child)) {
+          stack.add(child);
+        }
+      }
+    }
+  }
+  return false;
+}
