@@ -160,7 +160,7 @@ function App() {
       initialEdges = graphData.links;
     }
 
-    if (endSubjectId === 0) {
+    if (endSubjectId !== 0) {
       nodes.push(
         ...dijkstraShortestPath(subjectId, endSubjectId, initialEdges)
       );
