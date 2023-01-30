@@ -1827,10 +1827,10 @@ react-force-graph-2d@^1.23.11:
     prop-types "^15.8"
     react-kapsule "^2.2"
 
-react-force-graph-3d@^1.21.13:
-  version "1.21.13"
-  resolved "https://registry.yarnpkg.com/react-force-graph-3d/-/react-force-graph-3d-1.21.13.tgz#76a255161fafb33339f82b2e507de8a83dbd60e6"
-  integrity sha512-9l1NSMlTaXvUSWV9m2H3waFMnuoixDSbKmUobF4pd8H/Tdn5tm9ZUiLTAG2lz6G0GpdzKstC5nH65N0R9g0d5w==
+react-force-graph-3d@^1.21.19:
+  version "1.21.19"
+  resolved "https://registry.yarnpkg.com/react-force-graph-3d/-/react-force-graph-3d-1.21.19.tgz#1a543b7bcf7414cdc9bef5f1a97add0d15ca50f2"
+  integrity sha512-M9yv9aG6AyBbV0999mZIO9WHvID5dqH95LRBMlNa9UKOH8BtjVrI3dqlDIda4HDwTBnIvZeNQQu3eAV1KT5PkQ==
   dependencies:
     "3d-force-graph" "^1.70"
     prop-types "^15.8"
