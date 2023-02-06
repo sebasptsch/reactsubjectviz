@@ -18,7 +18,7 @@
     "react-dom": "^18.2.0",
     "react-force-graph": "^1.41.14",
     "react-force-graph-2d": "^1.23.11",
-    "react-force-graph-3d": "^1.21.13",
+    "react-force-graph-3d": "^1.22.0",
     "react-router-dom": "^6.4.2",
     "three": "^0.146.0",
     "three-spritetext": "^1.6.5",
