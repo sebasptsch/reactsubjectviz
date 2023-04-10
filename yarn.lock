@@ -22,16 +22,16 @@
     kapsule "^1.13"
     polished "^4.2.2"
 
-"3d-force-graph@^1.70":
-  version "1.70.14"
-  resolved "https://registry.yarnpkg.com/3d-force-graph/-/3d-force-graph-1.70.14.tgz#13a3778c267f24acb8220f690cb90e4538a3ffe6"
-  integrity sha512-cXJcAy8ZipcX0kUstCh900wqjADSBIe8TWDCDEi5b9804mecJdta20l/3j2Pr0Br+cqJtVsK4AusSqawlKq5xw==
+"3d-force-graph@^1.70", "3d-force-graph@^1.71":
+  version "1.71.2"
+  resolved "https://registry.yarnpkg.com/3d-force-graph/-/3d-force-graph-1.71.2.tgz#c61f0c3f1828fd001dde930699ca3548adceaa5a"
+  integrity sha512-5FUQCow5LNpBryV5h7rdu6B5HgrlXocVrRSEwj/NQWNr0fJXpHnnXmy7T7/yTMvr6ypzXDQGn0sjge1/RsUALQ==
   dependencies:
     accessor-fn "1"
-    kapsule "^1.13"
+    kapsule "^1.14"
     three ">=0.118 <1"
-    three-forcegraph "^1.39"
-    three-render-objects "^1.27"
+    three-forcegraph "^1.41"
+    three-render-objects "^1.28"
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
@@ -962,6 +962,13 @@ data-joint@^1.2:
   dependencies:
     index-array-by "^1.3.3"
 
+data-joint@^1.3:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/data-joint/-/data-joint-1.3.1.tgz#d134950322c90f531e81bbbe8454277549031466"
+  integrity sha512-tMK0m4OVGqiA3zkn8JmO6YAqD8UwJqIAx4AAwFl1SKTtKAqcXePuT+n2aayiX9uITtlN3DFtKKTOxJRUc2+HvQ==
+  dependencies:
+    index-array-by "^1.4.0"
+
 debounce@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
@@ -1292,6 +1299,11 @@ index-array-by@1, index-array-by@^1.3.3:
   resolved "https://registry.yarnpkg.com/index-array-by/-/index-array-by-1.3.3.tgz#6881ae680a44af2c344db5e18eac6c5dc1ccea47"
   integrity sha512-dpqV1sX+hx4s0RqAT97ypk9xzcAXJ0XK27p3bTgPy8bjbJAX6Kf7RU3pPXgmg9hhO7f5/WxO354v2f/A0/fz3Q==
 
+index-array-by@^1.4.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/index-array-by/-/index-array-by-1.4.1.tgz#425f26cf0c744a47ebadf47366692e52043cf17b"
+  integrity sha512-Zu6THdrxQdyTuT2uA5FjUoBEsFHPzHcPIj18FszN6yXKHxSfGcR4TPLabfuT//E25q1Igyx9xta2WMvD/x9P/g==
+
 inherits@^2.0.1:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
@@ -1372,10 +1384,10 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
 
-jerrypick@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/jerrypick/-/jerrypick-1.0.5.tgz#808a2a53acd332b1d972a097c510c5d28fb8e3e2"
-  integrity sha512-95dIyL2QXqevDDJ70rmiqKLsTi+riZftLQo708tSFR/O5pQOf6VscDhjnN8mkNQwqnQmGhw+6dfZ5d4bmH/yww==
+jerrypick@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/jerrypick/-/jerrypick-1.1.1.tgz#db0b15841a53cfe492de2db9544eecf8de73203c"
+  integrity sha512-XTtedPYEyVp4t6hJrXuRKr/jHj8SC4z+4K0b396PMkov6muL+i8IIamJIvZWe3jUspgIJak0P+BaWKawMYNBLg==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -1398,6 +1410,13 @@ kapsule@^1.13:
   integrity sha512-Y1lLt1htHNofIM5kxS5OdEqDm7WFqHF4hm6DrrvNEKIJugfQrxDBycV41QI5FpnBGHqyBD99VpTB5ARnlufP6w==
   dependencies:
     debounce "^1.2.1"
+
+kapsule@^1.14:
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/kapsule/-/kapsule-1.14.2.tgz#07528c2e83b16ec6152d35897b9eb82ce9e5bce6"
+  integrity sha512-6ROjWt7DHJ6pBv8RqpcP5uhP7+IgoaF5XavzcRU0U1/5wT/dZgBDNPrdZMNXaWyWLZvAdJ/ONuVRW0Dr9NbLkA==
+  dependencies:
+    lodash-es "4"
 
 layout-bmfont-text@^1.2.0:
   version "1.3.4"
@@ -1439,7 +1458,7 @@ load-bmfont@^1.2.3:
     xhr "^2.0.1"
     xtend "^4.0.0"
 
-lodash-es@^4.17.15:
+lodash-es@4, lodash-es@^4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
@@ -1827,14 +1846,14 @@ react-force-graph-2d@^1.23.11:
     prop-types "^15.8"
     react-kapsule "^2.2"
 
-react-force-graph-3d@^1.21.13:
-  version "1.21.13"
-  resolved "https://registry.yarnpkg.com/react-force-graph-3d/-/react-force-graph-3d-1.21.13.tgz#76a255161fafb33339f82b2e507de8a83dbd60e6"
-  integrity sha512-9l1NSMlTaXvUSWV9m2H3waFMnuoixDSbKmUobF4pd8H/Tdn5tm9ZUiLTAG2lz6G0GpdzKstC5nH65N0R9g0d5w==
+react-force-graph-3d@^1.22.1:
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/react-force-graph-3d/-/react-force-graph-3d-1.22.1.tgz#6b63f78d2f96df6c7d1a807a64eaf9475b505968"
+  integrity sha512-Gib4xmQYAo0gCUdhG9XTD+EvV+YLJFpr0H3n/c1jUUVpo3vX5nPQ/jLbQIzbzld9YxIeRjguAArG+0y/alBS5A==
   dependencies:
-    "3d-force-graph" "^1.70"
+    "3d-force-graph" "^1.71"
     prop-types "^15.8"
-    react-kapsule "^2.2"
+    react-kapsule "^2.4"
 
 react-force-graph@^1.41.14:
   version "1.41.14"
@@ -1853,13 +1872,13 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-kapsule@^2.2:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/react-kapsule/-/react-kapsule-2.2.5.tgz#f65e747818e49150215c0678cf7fa1b6bf7543fe"
-  integrity sha512-79fLQAx0GBRsXsZMbayI+to//RrBkbxPH9//wZgmCp32lTefMShrncOpHg59BlWzEana9c3tPAltv6j9nI2iiQ==
+react-kapsule@^2.2, react-kapsule@^2.4:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-kapsule/-/react-kapsule-2.4.0.tgz#50d296ed2872a6db89f2de176eebb1a4ce2cccb8"
+  integrity sha512-w4Yv9CgWdj8kWGQEPNWFGJJ08dYEZHZpiaFR/DgZjCMBNqv9wus2Gy1qvHVJmJbzvAZbq6jdvFC+NYzEqAlNhQ==
   dependencies:
     fromentries "^1.3.2"
-    jerrypick "^1.0.5"
+    jerrypick "^1.1.1"
 
 react-refresh@^0.14.0:
   version "0.14.0"
@@ -2051,19 +2070,35 @@ three-forcegraph@^1.39:
     ngraph.graph "^20.0"
     tinycolor2 "^1.4"
 
+three-forcegraph@^1.41:
+  version "1.41.5"
+  resolved "https://registry.yarnpkg.com/three-forcegraph/-/three-forcegraph-1.41.5.tgz#6ea60c205306c3f75587f65e5571ad35045b40eb"
+  integrity sha512-CJ2Wlbd3QjEsaXbLu+RrpY/c1uKb0zslbEfQHygTVO5/dZw76H9Oy7kWUUXwYt+3x0lVzktYxvczcuWvUZ/hPw==
+  dependencies:
+    accessor-fn "1"
+    d3-array "1 - 3"
+    d3-force-3d "2 - 3"
+    d3-scale "1 - 4"
+    d3-scale-chromatic "1 - 3"
+    data-joint "^1.3"
+    kapsule "^1.14"
+    ngraph.forcelayout "^3.3"
+    ngraph.graph "^20.0"
+    tinycolor2 "^1.6"
+
 three-pathfinding@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/three-pathfinding/-/three-pathfinding-0.7.0.tgz#bf64ec409bee6e7d8e19be96c7b40ebd7ef6f10d"
   integrity sha512-UwWvzgio1UFe81n5jKHNzB4B+AG3wfZ54OKp7bTb1MHuC3cy6RTtr0dbbiPQQoqxzr+DRArR2DUwQSEknw5+nw==
 
-three-render-objects@^1.27:
-  version "1.27.4"
-  resolved "https://registry.yarnpkg.com/three-render-objects/-/three-render-objects-1.27.4.tgz#36cfe710199e0d15575bca2bc39a35a0d8a98be4"
-  integrity sha512-rPFh1eE3NjErTe6bDZZIZQeIfj0BlW5vyeOuDIievNyszrpQBs5qcvTZEomCO+/nCM5tb3ZFANA8HQWr9wjDuw==
+three-render-objects@^1.28:
+  version "1.28.1"
+  resolved "https://registry.yarnpkg.com/three-render-objects/-/three-render-objects-1.28.1.tgz#a25f8a1f136a0d00bf96b486d73153e0a0d4abb2"
+  integrity sha512-8FIvzTcmLGMtCl8EZvzUFgLKTC7DTZWYnPIbEz51oi4jS5ugzQBKt8wNZyan448Vokl6noky5PnjzcONzIpgyQ==
   dependencies:
     "@tweenjs/tween.js" "18"
     accessor-fn "1"
-    kapsule "^1.13"
+    kapsule "^1.14"
     polished "4"
 
 three-spritetext@^1.6.5:
@@ -2085,6 +2120,11 @@ tinycolor2@^1.4, tinycolor2@^1.4.1, tinycolor2@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
+
+tinycolor2@^1.6:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.6.0.tgz#f98007460169b0263b97072c5ae92484ce02d09e"
+  integrity sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
